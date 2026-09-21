@@ -17,15 +17,15 @@ XML es un pilar esencial en el intercambio de datos en el mundo digital, combina
 #### Características principales de XML
 
 - **Formato basado en texto: XML utiliza un formato de texto legible** que facilita su comprensión y edición manual.
-- **Estructura jerárquica: los datos se organizan en elementos ani-** dados, formando una estructura tipo árbol.
+- **Estructura jerárquica**: los datos se organizan en elementos anidados, formando una estructura tipo árbol.
 - **Extensibilidad: los usuarios pueden definir sus propias etiquetas** según las necesidades de su aplicación.
-- **Separación de datos y presentación: XML se centra exclusiva-** mente en los datos, dejando su presentación a otros lenguajes como HTML o CSS.
+- **Separación de datos y presentación**: XML se centra exclusivamente en los datos, dejando su presentación a otros lenguajes como HTML o CSS.
 - **Portabilidad: es independiente de la plataforma y el software, lo** que permite su uso en diferentes entornos.
 #### Componentes básicos de un documento XML
 
-- **Declaración XML: indica la versión de XML y la codificación utili-** zada. Es opcional pero recomendada. **Ejemplo:** <?xml version="1.0" encoding="UTF-8"?>
-- **Elemento raíz: cada documento XML debe tener un único ele-** mento principal que contenga todos los demás elementos. **Ejemplo:** <libro> <!-- Otros elementos aquí --> </libro>
-- **Elementos: representan los datos y están delimitados por etique-** tas de apertura y cierre. **Ejemplo:** <titulo>Lenguajes de Marcas</titulo>
+- **Declaración XML**: indica la versión de XML y la codificación utilizada. Es opcional pero recomendada. **Ejemplo:** <?xml version="1.0" encoding="UTF-8"?>
+- **Elemento raíz**: cada documento XML debe tener un único elemento principal que contenga todos los demás elementos. **Ejemplo:** <libro> <!-- Otros elementos aquí --> </libro>
+- **Elementos**: representan los datos y están delimitados por etiquetas de apertura y cierre. **Ejemplo:** <titulo>Lenguajes de Marcas</titulo>
 
 - **Atributos: proporcionan información adicional sobre un elemento** en formato nombre="valor". **Ejemplo:** <libro id="1" categoria="educacion"> <titulo>Lenguajes de Marcas</titulo> </libro>
 - **Comentarios: ayudan a documentar el código XML sin afectar su** funcionalidad. **Ejemplo:** <!-- Este es un comentario en XML -->
@@ -36,7 +36,7 @@ XML es un pilar esencial en el intercambio de datos en el mundo digital, combina
 
 #### Ventajas de XML
 
-- **Interoperabilidad: es compatible con diferentes sistemas y tec-** nologías, facilitando el intercambio de datos.
+- **Interoperabilidad**: es compatible con diferentes sistemas y tecnologías, facilitando el intercambio de datos.
 - **Escalabilidad: su estructura jerárquica permite manejar datos** simples o complejos.
 
 - **Legibilidad: los documentos XML son fáciles de interpretar por** humanos y máquinas.
@@ -44,14 +44,14 @@ XML es un pilar esencial en el intercambio de datos en el mundo digital, combina
 #### Limitaciones de XML
 
 - **Verbosidad: XML puede generar archivos grandes debido al uso** extensivo de etiquetas.
-- **Rendimiento: procesar archivos XML puede ser más lento en com-** paración con formatos más compactos como JSON.
+- **Rendimiento**: procesar archivos XML puede ser más lento en comparación con formatos más compactos como JSON.
 - **Curva de aprendizaje: aunque sencillo, puede ser complejo para** principiantes debido a sus reglas estrictas.
 #### Usos comunes de XML
 
 - **Intercambio de datos: XML es ampliamente utilizado en servicios** web (SOAP) y APIs para transferir información entre aplicaciones.
 - **Almacenamiento de configuración: muchos programas utilizan** XML para guardar configuraciones y preferencias.
 - **Bases de datos: XML puede almacenar datos estructurados en** bases de datos orientadas a documentos.
-- **Representación de documentos: es útil para representar estruc-** turas complejas como libros electrónicos o manuales técnicos.
+- **Representación de documentos**: es útil para representar estructuras complejas como libros electrónicos o manuales técnicos.
 XML es un estándar versátil y ampliamente adoptado para estructurar y transportar datos. Su comprensión es esencial en el desarrollo de aplicaciones web, sistemas de intercambio de información y gestión de datos complejos.
 
 ### 5.2. Asociación con documentos XML
@@ -239,12 +239,12 @@ de duplicar información.
 - **Catálogos de productos: representar información sobre artículos** en sistemas de comercio electrónico.
 - **Gestión de datos: almacenar información de empleados, clientes** o inventarios.
 - **Intercambio de información: transferir datos entre sistemas,** como en servicios web.
-- **Documentación: crear estructuras organizadas para libros, ma-** nuales o reportes.
+- **Documentación**: crear estructuras organizadas para libros, manuales o reportes.
 La creación de descripciones en XML es una habilidad clave para estructurar y representar datos de manera clara y eficiente. Mediante el uso de etiquetas, atributos y una jerarquía bien definida, los documentos XML pueden adaptarse a una amplia variedad de aplicaciones, desde el almacenamiento de información hasta su presentación o intercambio en sistemas complejos.
 
 ### 5.4. Validación
 
-La validación XML es el proceso de verificar que un documento XML cumple con una estructura y reglas específicas definidas por un esquema, como DTD (Document Type Definition) o XSD (XML Schema **Definition). Este proceso garantiza que los datos sean correctos, con-** sistentes y cumplan con los requisitos establecidos.
+La validación XML es el proceso de verificar que un documento XML cumple con una estructura y reglas específicas definidas por un esquema, como DTD (Document Type Definition) o XSD (XML Schema Definition). Este proceso garantiza que los datos sean correctos, consistentes y cumplan con los requisitos establecidos.
 
 #### ¿Qué es la validación XML?
 
@@ -256,7 +256,7 @@ La validación es crucial en sistemas donde se intercambian datos estructurados,
 
 #### Documentos bien formados vs. válidos
 
-- **Documento bien formado: cumple con las reglas sintácticas bá-** sicas de XML:
+- **Documento bien formado**: cumple con las reglas sintácticas básicas de XML:
 #### – Tiene un único elemento raíz.
 
 #### – Las etiquetas están correctamente anidadas.
@@ -315,7 +315,7 @@ El XSD es un esquema más avanzado que permite definir tipos de datos, restricci
 - **Integridad de los datos: asegura que los datos cumplen con las** reglas definidas.
 - **Interoperabilidad: facilita el intercambio de datos entre sistemas** al garantizar formatos estandarizados.
 
-- **Facilidad de depuración: detecta errores estructurales y de con-** tenido en etapas tempranas.
+- **Facilidad de depuración**: detecta errores estructurales y de contenido en etapas tempranas.
 - **Escalabilidad: permite manejar estructuras de datos complejas y** relaciones jerárquicas.
 #### Ejemplo práctico de validación
 
@@ -415,8 +415,8 @@ tree.write("biblioteca_adaptada.xml", encoding="utf-8")
 
 #### Ventajas de la conversión y adaptación de XML
 
-- **Interoperabilidad: facilita la integración entre sistemas que utili-** zan formatos de datos diferentes.
-- **Accesibilidad: los datos pueden transformarse para ser visualiza-** dos en navegadores, aplicaciones o informes.
-- **Escalabilidad: permite adaptar documentos XML a nuevos reque-** rimientos sin cambiar su estructura básica.
+- **Interoperabilidad**: facilita la integración entre sistemas que utilizan formatos de datos diferentes.
+- **Accesibilidad**: los datos pueden transformarse para ser visualizados en navegadores, aplicaciones o informes.
+- **Escalabilidad**: permite adaptar documentos XML a nuevos requerimientos sin cambiar su estructura básica.
 - **Versatilidad: soporte para múltiples formatos como JSON, HTML,** CSV, entre otros.
 La conversión y adaptación de documentos XML es una práctica esencial en el desarrollo y mantenimiento de sistemas modernos. Con herramientas como XSLT y lenguajes de programación, es posible transformar y ajustar documentos XML para satisfacer necesidades específicas, optimizando así su utilidad e integración en entornos complejos.

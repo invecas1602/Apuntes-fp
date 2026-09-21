@@ -312,7 +312,7 @@ HTML ha evolucionado desde su creación en 1991, incorporando nuevas funcionalid
 #### – Limitaciones:
 
 - Diseño básico y sin soporte para estilos avanzados.
-3. **HTML 3.2 (1997)** – **Estándar oficial del W3C: HTML 3.0 no logró adoptarse am-** pliamente, por lo que HTML 3.2 se convirtió en la versión oficial.
+3. **HTML 3.2 (1997)** – **Estándar oficial del W3C**: HTML 3.0 no logró adoptarse ampliamente, por lo que HTML 3.2 se convirtió en la versión oficial.
 #### – Características principales:
 
 - Soporte para tablas mediante <table>.
@@ -378,8 +378,8 @@ Son esenciales para escribir y editar el código HTML, CSS, JavaScript y otros l
 
 **Ejemplos:**
 
-- **Visual Studio Code: editor avanzado con soporte para extensio-** nes, depuración y control de versiones.
-- **Sublime Text: editor ligero con funcionalidades como autocom-** pletado y selección múltiple.
+- **Visual Studio Code**: editor avanzado con soporte para extensiones, depuración y control de versiones.
+- **Sublime Text**: editor ligero con funcionalidades como autocompletado y selección múltiple.
 - **Atom: editor personalizable creado por GitHub.**
 - **Notepad++: alternativa sencilla para usuarios de Windows.**
 #### Herramientas de diseño visual
@@ -399,17 +399,17 @@ Facilitan la creación de diseños consistentes y responsivos.
 
 **Ejemplos:**
 
-- **Bootstrap: framework popular para diseño responsive (adapta-** bles) con componentes predefinidos.
+- **Bootstrap**: framework popular para diseño responsive (adaptables) con componentes predefinidos.
 - **Tailwind CSS: sistema de utilidades CSS altamente personalizable.**
 - **Materialize: basado en Material Design de Google.**
-- **Foundation: framework avanzado con herramientas para accesi-** bilidad y responsive design.
+- **Foundation**: framework avanzado con herramientas para accesibilidad y responsive design.
 #### Sistemas de gestión de contenido (CMS)
 
 Permiten desarrollar sitios web sin necesidad de programar desde cero.
 
 **Ejemplos:**
 
-- **WordPress: CMS más utilizado, ideal para blogs y sitios web cor-** porativos.
+- **WordPress**: CMS más utilizado, ideal para blogs y sitios web corporativos.
 - **Drupal: CMS flexible y robusto para proyectos complejos.**
 - **Joomla: alternativa a WordPress y Drupal.**
 - **Shopify: ideal para tiendas en línea.**
@@ -419,10 +419,10 @@ Ayudan a verificar la funcionalidad, accesibilidad y rendimiento del sitio web.
 
 **Ejemplos:**
 
-- **Google Chrome DevTools: herramienta integrada en el navega-** dor Chrome para depurar HTML, CSS y JavaScript.
-- **Firefox Developer Tools: similar a Chrome DevTools, pero con ca-** racterísticas específicas para desarrolladores.
+- **Google Chrome DevTools**: herramienta integrada en el navegador Chrome para depurar HTML, CSS y JavaScript.
+- **Firefox Developer Tools**: similar a Chrome DevTools, pero con características específicas para desarrolladores.
 - **Lighthouse: herramienta de Google para medir el rendimiento,** SEO y accesibilidad.
-- **BrowserStack: pruebas multiplataforma para verificar el compor-** tamiento en diferentes navegadores y dispositivos.
+- **BrowserStack**: pruebas multiplataforma para verificar el comportamiento en diferentes navegadores y dispositivos.
 
 #### Herramientas de diseño responsive
 
@@ -430,9 +430,9 @@ Permiten comprobar cómo se ve un sitio en diferentes tamaños de pantalla.
 
 **Ejemplos:**
 
-- **Responsively App: aplicación para pruebas responsivas en múlti-** ples dispositivos simultáneamente.
+- **Responsively App**: aplicación para pruebas responsivas en múltiples dispositivos simultáneamente.
 - **Screenfly: herramienta online para probar diseños en dispositivos** específicos.
-- **Device Mode en DevTools: funcionalidad integrada en navega-** dores modernos como Chrome y Firefox.
+- **Device Mode en DevTools**: funcionalidad integrada en navegadores modernos como Chrome y Firefox.
 #### Herramientas de gestión de proyectos
 
 Ayudan a coordinar equipos, realizar un seguimiento del progreso y organizar tareas.
@@ -442,7 +442,7 @@ Ayudan a coordinar equipos, realizar un seguimiento del progreso y organizar tar
 - **Trello: gestión de proyectos basada en tableros y tarjetas.**
 - **Asana: plataforma para la planificación y gestión de tareas.**
 - **Jira: popular en equipos de desarrollo ágil.**
-- **Notion: herramienta todo en uno para notas, planificación y cola-** boración.
+- **Notion**: herramienta todo en uno para notas, planificación y colaboración.
 #### Generadores de sitios web estáticos
 
 Simplifican la creación de sitios estáticos con enfoque en rendimiento y SEO.
@@ -462,7 +462,7 @@ Permiten subir un sitio web y mantenerlo accesible al público.
 - **GitHub Pages: gratuito para proyectos estáticos.**
 - **Netlify: fácil de usar, con integración CI/CD para despliegues rápidos.**
 - **Vercel: ideal para proyectos basados en frameworks como Next.js.**
-- **AWS: para alojar sitios web con mayor personalización y escala-** bilidad.
+- **AWS**: para alojar sitios web con mayor personalización y escalabilidad.
 #### Herramientas de análisis y optimización
 
 Ayudan a mejorar la experiencia del usuario, la velocidad y el SEO.
@@ -471,8 +471,8 @@ Ayudan a mejorar la experiencia del usuario, la velocidad y el SEO.
 
 - **Google Analytics: analiza el tráfico del sitio web.**
 - **Ahrefs: herramienta avanzada para análisis de SEO.**
-- **GTmetrix: mide el rendimiento de un sitio y ofrece recomendacio-** nes para mejorarlo.
-- **PageSpeed Insights: diagnostica problemas de velocidad y pro-** pone soluciones.
+- **GTmetrix**: mide el rendimiento de un sitio y ofrece recomendaciones para mejorarlo.
+- **PageSpeed Insights**: diagnostica problemas de velocidad y propone soluciones.
 Estas herramientas son fundamentales para diseñadores y desarrolladores web, permitiendo abordar proyectos de forma eficiente, creativa y con resultados profesionales. La selección dependerá del tipo de proyecto, las habilidades del equipo y los objetivos del sitio web.
 
 ### 2.7. Sindicación de contenidos
@@ -486,7 +486,7 @@ Consiste en usar formatos estándares, como RSS o Atom, para compartir contenido
 #### Términos clave
 
 - **RSS (Really Simple Syndication): formato ampliamente utilizado** para la sindicación de contenido web, basado en XML.
-- **Atom: alternativa a RSS, también basado en XML, pero con mejo-** ras en extensibilidad y estándares.
+- **Atom**: alternativa a RSS, también basado en XML, pero con mejoras en extensibilidad y estándares.
 - **Feed (acnal): archivo que comprende el contenido sindicado. Los** usuarios pueden suscribirse a este para recibir actualizaciones.
 #### ¿Cómo funciona la sindicación?
 
@@ -516,18 +516,18 @@ Consiste en usar formatos estándares, como RSS o Atom, para compartir contenido
 #### Para los creadores de contenido
 
 - **Mayor alcance: permite distribuir contenido en múltiples plataformas.**
-- **Aumento del tráfico: los enlaces en los feeds redirigen a los usua-** rios al sitio original.
+- **Aumento del tráfico**: los enlaces en los feeds redirigen a los usuarios al sitio original.
 - **Automatización: las actualizaciones son automáticas, ahorrando** tiempo en la distribución.
 #### Desventajas de la sindicación de contenidos
 
 - **Limitación de formatos: los feeds no admiten diseños visuales** complejos, lo que puede restar atractivo al contenido.
-- **Contenido duplicado: puede generar problemas de SEO si se dis-** tribuyen versiones completas del contenido.
+- **Contenido duplicado**: puede generar problemas de SEO si se distribuyen versiones completas del contenido.
 - **Control limitado: una vez publicado el feed, el creador no tiene** control sobre cómo o dónde se utiliza.
 #### Herramientas para la sindicación de contenidos
 
 #### Creación de feeds
 
-- **CMS: sistemas como WordPress y Drupal generan feeds automá-** ticamente.
+- **CMS**: sistemas como WordPress y Drupal generan feeds automáticamente.
 - **Generadores de feeds RSS: herramientas como Feedity o RSS.** app.
 #### Lectores de feeds
 
@@ -543,7 +543,7 @@ Consiste en usar formatos estándares, como RSS o Atom, para compartir contenido
 
 - **Medios de comunicación: mantienen a los lectores informados** sobre noticias recientes.
 - **Blogs y sitios especializados: difunden artículos y publicaciones** entre audiencias interesadas.
-- **E-commerce: publican automáticamente nuevos productos, ofer-** tas o actualizaciones en su catálogo.
+- **E-commerce**: publican automáticamente nuevos productos, ofertas o actualizaciones en su catálogo.
 - **Educación: distribuyen recursos y actualizaciones en plataformas** de aprendizaje.
 La sindicación de contenidos sigue siendo una herramienta clave para distribuir información de forma eficiente, manteniendo la conexión entre los creadores de contenido y su audiencia de manera automatizada y organizada.
 
@@ -559,11 +559,11 @@ Estos estándares son un conjunto de normas y directrices diseñadas para promov
 
 **Interoperabilidad**
 
-- **Descripción: los estándares web aseguran que los sitios y apli-** caciones web funcionen de manera consistente en diferentes navegadores, dispositivos y sistemas operativos.
+- **Descripción**: los estándares web aseguran que los sitios y aplicaciones web funcionen de manera consistente en diferentes navegadores, dispositivos y sistemas operativos.
 - **Características:** – Permiten a los desarrolladores crear una sola versión de su contenido que funcionará en todas partes. – Reducen la necesidad de pruebas exhaustivas en múltiples plataformas.
 **Accesibilidad**
 
-- **Descripción: los estándares web promueven la creación de con-** tenido accesible para todos los usuarios, incluyendo aquellos con discapacidades.
+- **Descripción**: los estándares web promueven la creación de contenido accesible para todos los usuarios, incluyendo aquellos con discapacidades.
 - **Características:** – Incluyen directrices como las Pautas de Accesibilidad para el Contenido Web (WCAG). – Fomentan el uso de etiquetas semánticas y atributos ARIA para mejorar la experiencia de los usuarios con tecnologías asistivas.
 **Usabilidad**
 

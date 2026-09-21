@@ -10,8 +10,8 @@ Tras estudiar los conceptos y herramientas descritos en este material, un alumno
 
 #### Creación y diseño de sitios web
 
-- **HTML y CSS: diseñar y estructurar páginas web atractivas, accesi-** bles y responsivas, utilizando hojas de estilo y técnicas avanzadas como Flexbox y CSS Grid.
-- **JavaScript: añadir interactividad y dinamismo a las páginas, inclu-** yendo formularios interactivos, animaciones y manejo de eventos del usuario.
+- **HTML y CSS**: diseñar y estructurar páginas web atractivas, accesibles y responsivas, utilizando hojas de estilo y técnicas avanzadas como Flexbox y CSS Grid.
+- **JavaScript**: añadir interactividad y dinamismo a las páginas, incluyendo formularios interactivos, animaciones y manejo de eventos del usuario.
 #### Gestión de datos y documentos XML
 
 - Crear, validar y transformar documentos XML para estructurar datos de manera jerárquica y legible.
@@ -70,11 +70,11 @@ Tras haber explorado conceptos fundamentales y habilidades prácticas en este ma
 #### Aprender un nuevo lenguaje de programación
 
 - **TypeScript: extensión de JavaScript que añade tipado estático,** ideal para grandes proyectos y frameworks como Angular.
-- **Python: lenguaje versátil para la manipulación de datos, aprendi-** zaje automático y desarrollo web.
-- **Java: utilizado ampliamente en entornos empresariales para apli-** caciones robustas y de alto rendimiento.
+- **Python**: lenguaje versátil para la manipulación de datos, aprendizaje automático y desarrollo web.
+- **Java**: utilizado ampliamente en entornos empresariales para aplicaciones robustas y de alto rendimiento.
 #### Aplicaciones prácticas y proyectos
 
-- **Proyecto web completo: crear un sitio web funcional que combi-** ne frontend (HTML, CSS, JavaScript) y backend (Node.js o Python).
+- **Proyecto web completo**: crear un sitio web funcional que combine frontend (HTML, CSS, JavaScript) y backend (Node.js o Python).
 - **Automatización empresarial: diseñar un flujo automatizado en** un ERP como Odoo que incluya módulos personalizados.
 - **Sistema de reportes dinámicos: implementar un sistema que** utilice datos extraídos de XML para generar reportes dinámicos en formato gráfico o PDF.
 El aprendizaje no se detiene aquí. Aprovechar las bases adquiridas para explorar nuevas tecnologías y desarrollar proyectos aplicados permitirá consolidar las habilidades y aumentar las oportunidades profesionales. Las áreas de desarrollo web, inteligencia de negocio y sistemas empresariales ofrecen un camino amplio y prometedor.
@@ -192,5 +192,5 @@ tareas.forEach(tarea => { console.log(`${tarea.descripcion} - Completada: ${tare
 
 - **Detección temprana de errores: el tipado estático reduce errores** comunes en tiempo de ejecución.
 - **Escalabilidad: ideal para proyectos grandes gracias a su soporte** para clases e interfaces.
-- **Compatibilidad con JavaScript: todo código TypeScript se con-** vierte en JavaScript, por lo que puede usarse en cualquier entorno que soporte este lenguaje.
+- **Compatibilidad con JavaScript**: todo código TypeScript se convierte en JavaScript, por lo que puede usarse en cualquier entorno que soporte este lenguaje.
 TypeScript es una excelente opción para quienes buscan mejorar la calidad y mantenibilidad de sus proyectos JavaScript. Con este taller, se han trabajado los conceptos básicos y aplicado ejemplos prácticos que sirven como base para desarrollar aplicaciones más complejas. ¡El siguiente paso es practicar y explorar más funcionalidades!

@@ -31,8 +31,8 @@ Un archivo biblioteca.xml almacenado en el sistema de archivos:
 
 #### Almacenamiento en bases de datos relacionales
 
-- **Descripción: las bases de datos relacionales almacenan documen-** tos XML en tablas, ya sea como texto completo o descompuestos en columnas.
-- **Métodos comunes:** – **Columna XML: el documento XML se almacena como una ca-** dena de texto. – **Mapeo relacional: los elementos XML se descomponen en ta-** blas y columnas.
+- **Descripción**: las bases de datos relacionales almacenan documentos XML en tablas, ya sea como texto completo o descompuestos en columnas.
+- **Métodos comunes:** – **Columna XML**: el documento XML se almacena como una cadena de texto. – **Mapeo relacional**: los elementos XML se descomponen en tablas y columnas.
 - **Ventajas:** – Compatibilidad con bases de datos existentes.
 #### – Uso de SQL para consultas.
 
@@ -62,7 +62,7 @@ INSERT INTO Biblioteca (ID, Datos) VALUES (1, '<libro><titulo>Lenguajes de Marca
 - **Ejemplo en MongoDB:** { "biblioteca": { "libro": { "titulo": "Lenguajes de Marcas", "autor": "Pablo García" } } }
 #### Almacenamiento en bases de datos NoSQL
 
-- **Descripción: bases de datos orientadas a documentos, como Mon-** goDB o CouchDB, pueden almacenar XML convirtiéndolo a JSON.
+- **Descripción**: bases de datos orientadas a documentos, como MongoDB o CouchDB, pueden almacenar XML convirtiéndolo a JSON.
 - **Ventajas:**
 #### – Escalabilidad y flexibilidad.
 
@@ -112,8 +112,8 @@ SELECT Datos.value('(/libro/titulo)[1]', 'VARCHAR(- MAX)') FROM Biblioteca
 
 - **Flexibilidad: permiten almacenar datos complejos y jerárquicos.**
 - **Interoperabilidad: facilitan el intercambio de información entre** diferentes sistemas.
-- **Consultas avanzadas: XPath, XQuery y SQL permiten extraer da-** tos de manera eficiente.
-- **Compatibilidad con tecnologías modernas: bases de datos NoS-** QL y nativas son ideales para aplicaciones actuales.
+- **Consultas avanzadas**: XPath, XQuery y SQL permiten extraer datos de manera eficiente.
+- **Compatibilidad con tecnologías modernas**: bases de datos NoSQL y nativas son ideales para aplicaciones actuales.
 #### Ejemplo práctico:
 
 #### Almacenamiento en eXist-db

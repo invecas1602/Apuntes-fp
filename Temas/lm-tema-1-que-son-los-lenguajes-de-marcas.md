@@ -13,29 +13,29 @@ Por ejemplo, en HTML (HyperText Markup Language), una etiqueta como <h1> indica 
 #### Características principales
 
 - **Estructura jerárquica: los lenguajes de marcas suelen organizar** la información en una estructura jerárquica basada en árboles, lo que facilita la representación de datos complejos.
-- **Legibilidad: aunque están destinados principalmente a las má-** quinas, los lenguajes de marcas son legibles para los humanos, lo que facilita su creación y depuración.
+- **Legibilidad**: aunque están destinados principalmente a las máquinas, los lenguajes de marcas son legibles para los humanos, lo que facilita su creación y depuración.
 - **Independencia del formato: los lenguajes de marcas separan el** contenido de su presentación, permitiendo que un mismo documento pueda ser visualizado en distintos dispositivos o formatos.
-- **Extensibilidad: algunos lenguajes de marcas, como XML, permi-** ten crear nuevas etiquetas adaptadas a las necesidades específicas de los usuarios o aplicaciones.
+- **Extensibilidad**: algunos lenguajes de marcas, como XML, permiten crear nuevas etiquetas adaptadas a las necesidades específicas de los usuarios o aplicaciones.
 
 #### Tipos de lenguajes de marcas
 
 Los lenguajes de marcas pueden clasificarse según su propósito principal:
 
-- **Lenguajes de descripción de documentos: diseñados para es-** tructurar y presentar documentos, como HTML y LaTeX.
+- **Lenguajes de descripción de documentos**: diseñados para estructurar y presentar documentos, como HTML y LaTeX.
 - **Lenguajes de intercambio de datos: se utilizan para transferir** datos entre sistemas de manera estructurada, como XML y JSON (aunque este último no usa etiquetas).
 - **Lenguajes de presentación: orientados a la definición del estilo y** la apariencia de los datos, como CSS.
-- **Lenguajes especializados: diseñados para aplicaciones específi-** cas, como MathML, para expresiones matemáticas o SVG o para gráficos vectoriales.
+- **Lenguajes especializados**: diseñados para aplicaciones específicas, como MathML, para expresiones matemáticas o SVG o para gráficos vectoriales.
 #### Aplicaciones comunes
 
-- **Diseño web: lenguajes como HTML y CSS son la base de las pági-** nas web modernas.
-- **Intercambio de datos: XML es ampliamente usado en la comuni-** cación entre aplicaciones.
-- **Documentación científica: laTeX facilita la creación de documen-** tos técnicos de alta calidad.
+- **Diseño web**: lenguajes como HTML y CSS son la base de las páginas web modernas.
+- **Intercambio de datos**: XML es ampliamente usado en la comunicación entre aplicaciones.
+- **Documentación científica**: laTeX facilita la creación de documentos técnicos de alta calidad.
 - **Almacenamiento de datos: archivos XML o JSON son comunes en** configuraciones y bases de datos.
 **Beneficios**
 
-- **Estandarización: promueven la interoperabilidad al seguir están-** dares definidos por organismos como el W3C.
+- **Estandarización**: promueven la interoperabilidad al seguir estándares definidos por organismos como el W3C.
 - **Portabilidad: los documentos marcados pueden interpretarse en** diferentes plataformas y sistemas.
-- **Escalabilidad: permiten manejar desde documentos simples has-** ta sistemas complejos con millones de registros.
+- **Escalabilidad**: permiten manejar desde documentos simples hasta sistemas complejos con millones de registros.
 Los lenguajes de marcas son una pieza fundamental en la gestión de la información digital. Su flexibilidad, legibilidad y capacidad para adaptarse a diversas aplicaciones los convierten en herramientas esenciales para desarrolladores y profesionales en el área de la tecnología.
 
 ### 1.2. Clasificación
@@ -48,7 +48,7 @@ Estos lenguajes se utilizan para organizar y estructurar información de forma j
 
 **Ejemplos:**
 
-- **XML (eXtensible Markup Language): permite estructurar infor-** mación de manera flexible y extensible. Se utiliza en documentos, configuraciones y bases de datos.
+- **XML (eXtensible Markup Language)**: permite estructurar información de manera flexible y extensible. Se utiliza en documentos, configuraciones y bases de datos.
 - **JSON (JavaScript Object Notation): aunque técnicamente no es** un lenguaje de marcas, se usa ampliamente como alternativa ligera a XML para estructurar datos.
 #### Lenguajes de marcas para el diseño web
 
@@ -66,7 +66,7 @@ Diseñados para necesidades específicas en sectores concretos.
 
 - **SVG (Scalable Vector Graphics): se emplea para la descripción** de gráficos vectoriales en 2D.
 - **MathML (Mathematical Markup Language): acostumbra a** usarse para representar expresiones matemáticas en páginas web y documentos.
-- **RSS (Really Simple Syndication): usado para sindicación de con-** tenido, como noticias y blogs.
+- **RSS (Really Simple Syndication)**: usado para sindicación de contenido, como noticias y blogs.
 
 #### Lenguajes de marcas basados en estándares específicos
 
@@ -107,7 +107,7 @@ Son programas básicos que permiten escribir código de lenguajes de marcas sin 
 
 **Ejemplos:**
 
-- **Bloc de notas (Windows): se trata de una opción básica y acce-** sible para empezar.
+- **Bloc de notas (Windows)**: se trata de una opción básica y accesible para empezar.
 - **Nano o Vim (Linux): editores en consola, ligeros y eficientes para** usuarios avanzados.
 #### Editores de texto enriquecidos
 
@@ -124,10 +124,10 @@ Son herramientas completas que combinan edición, depuración y validación, ori
 
 **Ejemplos:**
 
-- **Eclipse: cuenta con plugins para trabajar con XML, HTML y len-** guajes relacionados.
+- **Eclipse**: cuenta con plugins para trabajar con XML, HTML y lenguajes relacionados.
 - **IntelliJ IDEA: muy utilizado para desarrollo web y proyectos que** incluyen lenguajes de marcas como parte de sistemas más amplios.
 
-- **NetBeans: compatible con XML y HTML, ideal para desarrollado-** res Java que trabajan con lenguajes de marcas.
+- **NetBeans**: compatible con XML y HTML, ideal para desarrolladores Java que trabajan con lenguajes de marcas.
 #### Herramientas específicas para lenguajes de marcas
 
 Estas herramientas se diseñan exclusivamente para trabajar con documentos de un lenguaje de marcas concreto, ofreciendo características como validación y transformación.
@@ -135,7 +135,7 @@ Estas herramientas se diseñan exclusivamente para trabajar con documentos de un
 **Ejemplos:**
 
 - **Oxygen XML Editor: completo y profesional, con soporte para** XML, XSLT, XQuery y otros estándares.
-- **XMLSpy: orientado a la edición avanzada de XML, con herramien-** tas de validación y diseño de esquemas.
+- **XMLSpy**: orientado a la edición avanzada de XML, con herramientas de validación y diseño de esquemas.
 - **Dreamweaver: ideal para diseño web con soporte integrado para** HTML, CSS y JavaScript.
 #### Herramientas en línea
 
@@ -144,7 +144,7 @@ Estas herramientas consisten en soluciones basadas en la web que no requieren in
 **Ejemplos:**
 
 - **CodePen: perfecto para trabajar con HTML, CSS y JavaScript de** forma colaborativa.
-- **XML Validator: útil para validar rápidamente la estructura de do-** cumentos XML.
+- **XML Validator**: útil para validar rápidamente la estructura de documentos XML.
 - **JSFiddle: similar a CodePen, con soporte para HTML y lenguajes** relacionados.
 #### Complementos de navegadores
 
@@ -153,7 +153,7 @@ Algunos navegadores y herramientas asociadas permiten editar y validar lenguajes
 **Ejemplos:**
 
 - **DevTools (Chrome, Firefox, Edge): herramientas integradas para** inspeccionar y modificar HTML y CSS en tiempo real.
-- **Firebug (obsoleto, pero precursor de DevTools): ayudaba a depu-** rar HTML y CSS.
+- **Firebug (obsoleto, pero precursor de DevTools)**: ayudaba a depurar HTML y CSS.
 Tabla resumen con el tipo de tarea y la herramienta recomendada:
 
 Tipo de tarea Herramienta recomendada
@@ -177,7 +177,7 @@ Algunos navegadores y herramientas asociadas permiten editar y validar lenguajes
 **Ejemplos:**
 
 - **DevTools (Chrome, Firefox, Edge): herramientas integradas para** inspeccionar y modificar HTML y CSS en tiempo real.
-- **Firebug (obsoleto, pero precursor de DevTools): ayudaba a depu-** rar HTML y CSS.
+- **Firebug (obsoleto, pero precursor de DevTools)**: ayudaba a depurar HTML y CSS.
 Tabla resumen con el tipo de tarea y la herramienta recomendada:
 
 #### Tipo de tarea Herramienta recomendada

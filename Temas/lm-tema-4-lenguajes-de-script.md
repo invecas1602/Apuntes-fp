@@ -10,7 +10,7 @@ Los lenguajes de script son comúnmente utilizados para tareas como la gestión 
 
 - **Interpretados: los lenguajes de script son interpretados en lugar** de compilados. Esto significa que el código se ejecuta directamente línea por línea por un intérprete, lo que facilita la depuración y hace que el ciclo de desarrollo sea más rápido.
 - **Simplicidad y facilidad de uso: están diseñados para ser fáciles** de aprender y utilizar, con una sintaxis simplificada en comparación con lenguajes compilados como C o Java, lo que los hace accesibles tanto para desarrolladores experimentados como para principiantes.
-- **Tipado dinámico: en muchos lenguajes de script, el tipo de las va-** riables se determina en tiempo de ejecución, lo que proporciona flexibilidad y reduce la necesidad de declaraciones de tipos explícitas.
+- **Tipado dinámico**: en muchos lenguajes de script, el tipo de las variables se determina en tiempo de ejecución, lo que proporciona flexibilidad y reduce la necesidad de declaraciones de tipos explícitas.
 - **Portabilidad: la mayoría de los lenguajes de script son portátiles** y pueden ejecutarse en diferentes sistemas operativos sin necesidad de modificaciones en el código fuente.
 - **Bibliotecas y módulos extensos: los lenguajes de script suelen** tener un amplio conjunto de bibliotecas y módulos disponibles, lo que permite a los desarrolladores reutilizar código existente y acelerar el desarrollo de aplicaciones.
 - **Integración y automatización: se utilizan ampliamente para la** integración de sistemas y la automatización de tareas repetitivas, como la gestión de archivos, la configuración de sistemas y la ejecución de tareas programadas.
@@ -21,9 +21,9 @@ script se encuentran la creación de scripts de shell (por ejemplo, Bash), la ma
 #### Ejemplos de lenguajes de script populares
 
 - **JavaScript: utilizado principalmente para el desarrollo web del** lado del cliente, pero también del lado del servidor con Node.js.
-- **Python: conocido por su sintaxis clara y su amplia aplicación en cien-** cia de datos, desarrollo web, automatización y scripting general.
+- **Python**: conocido por su sintaxis clara y su amplia aplicación en ciencia de datos, desarrollo web, automatización y scripting general.
 - **Ruby: utilizado en desarrollo web (Ruby on Rails) y scripting general.**
-- **Perl: famoso por su capacidad de procesamiento de texto y admi-** nistración de sistemas.
+- **Perl**: famoso por su capacidad de procesamiento de texto y administración de sistemas.
 - **PHP: se emplea principalmente para el desarrollo web del lado del** servidor.
 - **Bash: utilizado para la creación de scripts de shell en sistemas** Unix y Linux.
 Los lenguajes de script son herramientas esenciales en el arsenal de cualquier desarrollador, proporcionando una forma rápida y eficiente de automatizar tareas y desarrollar aplicaciones. Su simplicidad, flexibilidad y extensibilidad los hacen ideales para una amplia variedad de aplicaciones en el mundo de la tecnología.
@@ -40,13 +40,13 @@ Originalmente desarrollado por Netscape como un medio para agregar comportamient
 
 - **Interactividad del lado del cliente: JavaScript se ejecuta en el** navegador del usuario, lo que permite crear experiencias interactivas y dinámicas sin necesidad de recargar la página completa. Esto incluye la validación de formularios, la creación de efectos visuales y la actualización de contenido en tiempo real.
 - **Orientado a objetos y basado en prototipos: a diferencia de** otros lenguajes orientados a objetos que utilizan clases, JavaScript usa prototipos para la herencia. Esto permite una gran flexibilidad en la creación y manipulación de objetos.
-- **Lenguaje interpretado: es un lenguaje interpretado, lo que im-** plica que el código se ejecuta de forma secuencial en lugar de ser compilado previamente. Esto facilita la depuración y acelera el proceso de desarrollo.
+- **Lenguaje interpretado**: es un lenguaje interpretado, lo que implica que el código se ejecuta de forma secuencial en lugar de ser compilado previamente. Esto facilita la depuración y acelera el proceso de desarrollo.
 - **Versatilidad y portabilidad: JavaScript puede ejecutarse en** cualquier dispositivo que tenga un navegador web, lo que lo hace extremadamente portátil.
 - **Eventos y manipulación del DOM: JavaScript es fundamental para** la manipulación del Document Object Model (DOM), lo que permite a los desarrolladores cambiar dinámicamente la estructura, el contenido y el estilo de las páginas web en respuesta a eventos del usuario, como clics, movimientos del ratón y entradas de teclado.
 
-- **Asincronía: JavaScript soporta operaciones asincrónicas median-** te callbacks, promesas y la sintaxis async/await. Esto es esencial para realizar tareas como la carga de datos desde un servidor sin bloquear la ejecución del código.
-- **Amplio ecosistema y bibliotecas: JavaScript cuenta con una vas-** ta cantidad de bibliotecas y frameworks que facilitan el desarrollo de aplicaciones complejas. Algunos ejemplos populares son React, Angular y Vue.js, empleados para el desarrollo front-end, y Express.js para el desarrollo back-end con Node.js.
-- **Compatibilidad con múltiples plataformas: gracias a su capa-** cidad de ejecución en navegadores web, servidores (a través de Node.js) y aplicaciones móviles (con frameworks como React Native), JavaScript es un lenguaje verdaderamente multiplataforma.
+- **Asincronía**: JavaScript soporta operaciones asincrónicas mediante callbacks, promesas y la sintaxis async/await. Esto es esencial para realizar tareas como la carga de datos desde un servidor sin bloquear la ejecución del código.
+- **Amplio ecosistema y bibliotecas**: JavaScript cuenta con una vasta cantidad de bibliotecas y frameworks que facilitan el desarrollo de aplicaciones complejas. Algunos ejemplos populares son React, Angular y Vue.js, empleados para el desarrollo front-end, y Express.js para el desarrollo back-end con Node.js.
+- **Compatibilidad con múltiples plataformas**: gracias a su capacidad de ejecución en navegadores web, servidores (a través de Node.js) y aplicaciones móviles (con frameworks como React Native), JavaScript es un lenguaje verdaderamente multiplataforma.
 A continuación se muestra un pequeño ejemplo de cómo JavaScript puede ser utilizado para cambiar el contenido de una página web en respuesta a una interacción del usuario.
 
 <!DOCTYPE html> <html> <head> <title>Ejemplo de JavaScript</title> <script> function mostrarMensaje() { alert("¡Hola, este es un mensaje de JavaScript!"); } </script> </head> <body> <button onclick="mostrarMensaje()">Haz clic aquí</button> </body> </html>
@@ -59,10 +59,10 @@ JavaScript es un lenguaje de programación esencial en el desarrollo web moderno
 
 JavaScript, como cualquier lenguaje de programación, se compone de varios elementos y conceptos fundamentales que los desarrolladores utilizan para escribir código funcional y eficiente. Los principales elementos del lenguaje de JavaScript son los siguientes:
 
-- **Variables: almacenan datos que pueden cambiar durante la eje-** cución del programa. var nombre = "Juan"; let edad = 30; const PI = 3.1416;
+- **Variables**: almacenan datos que pueden cambiar durante la ejecución del programa. var nombre = "Juan"; let edad = 30; const PI = 3.1416;
 Las variables declaradas con var tienen un alcance de función o global. Si se declaran dentro de una función, solo son accesibles dentro de la misma. Si se declaran fuera de una función, tienen un alcance global, mientras que las variables declaradas con let tienen un alcance de bloque. Esto significa que solo son accesibles dentro del bloque de código donde se declararon.
 
-- **Tipos de datos: incluyen primitivos como number, string, boo-** lean, null, undefined, y symbol. let numero = 10; let texto = "Hola"; let esVerdad = true; let valorNulo = null; let valorIndefinido;
+- **Tipos de datos**: incluyen primitivos como number, string, boolean, null, undefined, y symbol. let numero = 10; let texto = "Hola"; let esVerdad = true; let valorNulo = null; let valorIndefinido;
 - **Operadores aritméticos: +, -, *, /, %** let suma = 5 + 3; let resta = 5 - 3; let multiplicacion = 5 * 3; let division = 5 / 3; let modulo = 5 % 3;
 - **Operadores de asignación: =, +=, -=, *=, /=, %=** let x = 10; x += 5; // x ahora es 15
 - **Operadores de comparación: ==, ===, !=, !==, >, <, >=, <=** let esIgual = (5 == '5'); // true let esEstrictamenteIgual = (5 === '5'); // false
@@ -109,11 +109,11 @@ La POO se centra en el diseño y organización del software en torno a estos obj
 
 #### Conceptos Clave de la POO
 
-- **Clase: plantilla o modelo que define las propiedades y comporta-** mientos (métodos) comunes de un conjunto de objetos.
+- **Clase**: plantilla o modelo que define las propiedades y comportamientos (métodos) comunes de un conjunto de objetos.
 - **Objeto: instancia de una clase. Un objeto es una entidad que tiene** estado (atributos) y comportamiento (métodos).
-- **Encapsulación: principio que consiste en ocultar los detalles in-** ternos de un objeto y exponer solo lo necesario a través de una interfaz pública.
-- **Herencia: mecanismo por el cual una clase puede heredar propie-** dades y métodos de otra.
-- **Polimorfismo: capacidad de los objetos de diferentes clases re-** lacionadas por herencia de responder a la misma interfaz de métodos de diferentes maneras.
+- **Encapsulación**: principio que consiste en ocultar los detalles internos de un objeto y exponer solo lo necesario a través de una interfaz pública.
+- **Herencia**: mecanismo por el cual una clase puede heredar propiedades y métodos de otra.
+- **Polimorfismo**: capacidad de los objetos de diferentes clases relacionadas por herencia de responder a la misma interfaz de métodos de diferentes maneras.
 JavaScript soporta la POO mediante el uso de prototipos y, más recientemente, con la introducción de la sintaxis de clases en ECMAScript 6 (ES6). A continuación, se explica cómo utilizar la POO en JavaScript.
 
 #### Definición de clases y creación de objetos
@@ -196,10 +196,10 @@ Over the river, Shady Grove Aeolian Dorian Charlie
 
 - **Estructura en árbol: el DOM representa el documento como una** estructura jerárquica en forma de árbol, donde cada nodo puede tener hijos. El nodo raíz es el documento mismo y de él cuelgan todos los demás elementos y contenidos.
 - **Nodos: son las unidades fundamentales del DOM. Existen varios** tipos de nodos: – **Elementos: representan las etiquetas HTML (por ejemplo,** <div>, <p>, <a>). – **Atributos: representan los atributos de los elementos (por** ejemplo, class, id). – **Texto: representan el contenido textual dentro de los elementos.** – **Comentarios: representan los comentarios en el código HTML.**
-- **Accesibilidad y manipulación: a través de lenguajes de progra-** mación como JavaScript, los desarrolladores pueden acceder y manipular cualquier parte del documento. Pueden agregar, modificar o eliminar nodos, cambiar atributos y estilos, y responder a eventos del usuario.
+- **Accesibilidad y manipulación**: a través de lenguajes de programación como JavaScript, los desarrolladores pueden acceder y manipular cualquier parte del documento. Pueden agregar, modificar o eliminar nodos, cambiar atributos y estilos, y responder a eventos del usuario.
 - **Eventos: el DOM permite la creación y gestión de eventos. Los** desarrolladores pueden definir comportamientos específicos en respuesta a acciones del usuario, como clics, desplazamientos o cambios de formulario, entre otros.
 - **Compatibilidad con múltiples lenguajes: aunque comúnmente** se asocia con JavaScript, el DOM es un estándar independiente del lenguaje y puede ser manipulado por cualquier lenguaje de programación que pueda interactuar con el navegador.
-- **Interactividad y dinamismo: el DOM permite la creación de con-** tenido dinámico e interactivo. Mediante el uso de JavaScript y el DOM, los desarrolladores pueden actualizar partes del documento en respuesta a la interacción del usuario sin necesidad de recargar la página completa.
+- **Interactividad y dinamismo**: el DOM permite la creación de contenido dinámico e interactivo. Mediante el uso de JavaScript y el DOM, los desarrolladores pueden actualizar partes del documento en respuesta a la interacción del usuario sin necesidad de recargar la página completa.
 
 Un ejemplo común de uso del DOM es la manipulación de elementos HTML mediante JavaScript. A continuación, se muestra un pequeño ejemplo de cómo se puede cambiar el contenido de un elemento <div> mediante JavaScript:
 

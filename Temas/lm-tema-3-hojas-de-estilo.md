@@ -14,9 +14,9 @@ Las hojas de estilo separan el contenido (HTML) de la presentación (CSS), facil
 
 #### Función de una hoja de estilo
 
-- **Definir la apariencia de los elementos: permite modificar co-** lores, fuentes, tamaños, márgenes, alineación, bordes, y otros aspectos visuales.
+- **Definir la apariencia de los elementos**: permite modificar colores, fuentes, tamaños, márgenes, alineación, bordes, y otros aspectos visuales.
 - **Asegurar consistencia: una única hoja de estilo externa puede** aplicarse a varias páginas, garantizando un diseño uniforme.
-- **Adaptarse a dispositivos: facilita la creación de diseños responsi-** vos que se ajustan a diferentes tamaños de pantalla (ordenadores, móviles, tablets).
+- **Adaptarse a dispositivos**: facilita la creación de diseños responsivos que se ajustan a diferentes tamaños de pantalla (ordenadores, móviles, tablets).
 
 #### Tipos de hojas de estilo
 
@@ -30,7 +30,7 @@ p { color: red; font-size: 16px; }
 #### Ventajas de usar hojas de estilo
 
 - **Separación de contenido y diseño: facilita la gestión y edición** de los archivos HTML y CSS.
-- **Reutilización del código: una hoja de estilo externa puede apli-** carse a varias páginas web.
+- **Reutilización del código**: una hoja de estilo externa puede aplicarse a varias páginas web.
 
 - **Mantenimiento eficiente: cambiar un estilo en el archivo CSS** afecta a todas las páginas que lo usan.
 - **Diseños responsivos: CSS permite adaptar el diseño a diferentes** dispositivos y resoluciones.
@@ -84,7 +84,7 @@ Donde:
 
 - **Grupo de selectores: aplica el mismo estilo a varios elementos.** h1, h2, h3 { color: green; }
 - **Selectores descendientes: aplica estilos a los elementos dentro** de un contenedor. div p { color: purple; }
-- **Selectores de atributos: aplica estilos a elementos con un atribu-** to específico. input[type="text"] { border: 1px solid black; }
+- **Selectores de atributos**: aplica estilos a elementos con un atributo específico. input[type="text"] { border: 1px solid black; }
 
 - **Selectores pseudoclase: aplica estilos basados en un estado o** condición. a:hover { text-decoration: underline; }
 - **Selectores pseudoelemento: aplica estilos a una parte específica** de un elemento. p::first-line { font-weight: bold; }
@@ -313,7 +313,7 @@ El diseño responsive utiliza técnicas y herramientas como media queries, **uni
 #### Características clave del diseño responsive
 
 - **Adaptabilidad: el contenido y los elementos visuales se ajustan** automáticamente al tamaño del dispositivo.
-- **Un diseño único: se evita crear versiones separadas para disposi-** tivos móviles y escritorio, simplificando el mantenimiento.
+- **Un diseño único**: se evita crear versiones separadas para dispositivos móviles y escritorio, simplificando el mantenimiento.
 - **Optimización para dispositivos móviles: el diseño se enfoca en** pantallas más pequeñas primero (Mobile First) y luego escala a dispositivos más grandes.
 #### Herramientas y técnicas del diseño responsive
 
@@ -337,7 +337,7 @@ El uso de unidades relativas permite que los tamaños de los elementos se ajuste
 
 #### Layouts flexibles (Flexbox y Grid)
 
-- **Flexbox: sistema de diseño unidimensional que distribuye ele-** mentos de manera flexible. **Ejemplo:** .container { display: flex; flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas */ justify-content: center; /* Centra los elementos horizontalmente */ gap: 10px; /* Espacio entre elementos */ }
+- **Flexbox**: sistema de diseño unidimensional que distribuye elementos de manera flexible. **Ejemplo:** .container { display: flex; flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas */ justify-content: center; /* Centra los elementos horizontalmente */ gap: 10px; /* Espacio entre elementos */ }
 - **Grid: sistema de diseño bidimensional que organiza elementos en** filas y columnas. **Ejemplo:** .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el número de columnas automáticamente */ gap: 15px; /* Espacio entre columnas y filas */ }
 #### Imágenes y multimedia responsivos
 
@@ -439,7 +439,7 @@ Combinar media queries con Flexbox o Grid permite crear diseños adaptables a di
 
 - **Flexibilidad: permiten diseños adaptativos y escalables.**
 - **Organización: mejoran la estructura y la disposición del contenido.**
-- **Control preciso: facilitan el control de alineación, espacio y tama-** ño de los elementos. **Conclusión** Los layouts avanzados en CSS, como Flexbox y Grid, son herramientas poderosas para crear diseños modernos y responsivos. Su dominio permite a los desarrolladores estructurar el contenido de manera eficiente y optimizar la experiencia del usuario en cualquier dispositivo.
+- **Control preciso**: facilitan el control de alineación, espacio y tamaño de los elementos. **Conclusión** Los layouts avanzados en CSS, como Flexbox y Grid, son herramientas poderosas para crear diseños modernos y responsivos. Su dominio permite a los desarrolladores estructurar el contenido de manera eficiente y optimizar la experiencia del usuario en cualquier dispositivo.
 
 ### 3.6. Tipografía en CSS
 
@@ -572,8 +572,8 @@ h1 { font-family: 'MiFuentePersonalizada', sans-serif; }
 
 - **Legibilidad: usa tamaños y colores que permitan una lectura** cómoda.
 - **Consistencia: limita la cantidad de fuentes utilizadas (2 o 3 como** máximo).
-- **Contraste: asegúrate de que el color del texto contraste adecua-** damente con el fondo.
-- **Responsive: adapta los tamaños de las fuentes utilizando unida-** des relativas (em, rem, %).
+- **Contraste**: asegúrate de que el color del texto contraste adecuadamente con el fondo.
+- **Responsive**: adapta los tamaños de las fuentes utilizando unidades relativas (em, rem, %).
 - **Accesibilidad: usa la propiedad line-height y asegúrate de que los** textos sean comprensibles.
 
 #### Ejemplo práctico de tipografía en CSS
@@ -596,10 +596,10 @@ La tipografía en CSS es crucial para crear una experiencia de usuario atractiva
 
 #### Características principales de BulmaCSS
 
-- **Ligero y modular: solo se incluyen las funcionalidades necesa-** rias, permitiendo personalizar los estilos.
-- **Sistema de diseño responsive: utiliza un sistema de columnas ba-** sado en flexbox, lo que facilita la creación de layouts adaptativos.
+- **Ligero y modular**: solo se incluyen las funcionalidades necesarias, permitiendo personalizar los estilos.
+- **Sistema de diseño responsive**: utiliza un sistema de columnas basado en flexbox, lo que facilita la creación de layouts adaptativos.
 - **Basado en clases: todas las funcionalidades se implementan a** través de clases predefinidas, simplificando la escritura de código.
-- **Sin dependencias: no requiere JavaScript ni otros frameworks ex-** ternos para funcionar.
+- **Sin dependencias**: no requiere JavaScript ni otros frameworks externos para funcionar.
 - **Estética moderna: viene con estilos atractivos y listos para usar,** ideales para proyectos rápidos.
 #### Instalación de BulmaCSS
 
@@ -690,13 +690,13 @@ Bulma utiliza breakpoints predefinidos para crear diseños responsivos. Puedes a
 
 #### Ventajas de BulmaCSS
 
-- **Facilidad de uso: las clases predefinidas permiten desarrollar rá-** pidamente sin necesidad de escribir CSS personalizado.
-- **Completamente responsive: incluye soporte para adaptarse au-** tomáticamente a cualquier dispositivo.
-- **Estilos modernos: el diseño visual de Bulma es atractivo y ade-** cuado para proyectos actuales.
+- **Facilidad de uso**: las clases predefinidas permiten desarrollar rápidamente sin necesidad de escribir CSS personalizado.
+- **Completamente responsive**: incluye soporte para adaptarse automáticamente a cualquier dispositivo.
+- **Estilos modernos**: el diseño visual de Bulma es atractivo y adecuado para proyectos actuales.
 - **Comunidad activa: cuenta con documentación extensa y soporte** de la comunidad.
 #### Desventajas de BulmaCSS
 
-- **Dependencia de clases: todo el diseño depende del uso correc-** to de las clases, lo que puede limitar la flexibilidad en proyectos complejos.
+- **Dependencia de clases**: todo el diseño depende del uso correcto de las clases, lo que puede limitar la flexibilidad en proyectos complejos.
 - **Sobrecarga de estilos: en proyectos pequeños, puede incluir más** estilos de los necesarios.
 #### Ejemplo práctico de una página con Bulma:
 

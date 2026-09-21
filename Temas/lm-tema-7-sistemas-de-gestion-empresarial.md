@@ -23,8 +23,8 @@ La inteligencia de negocio permite a las empresas:
 
 - **Fuentes de datos:** – Datos internos: ERP, CRM, bases de datos empresariales. – Datos externos: redes sociales, tendencias de mercado, estadísticas públicas.
 - **Procesos de extracción, transformación y carga (ETL):** – **Extracción: recopilación de datos desde múltiples fuentes.** – **Transformación: limpieza y formateo de datos para que sean** consistentes. – **Carga: almacenamiento de los datos en un almacén o base de** datos analítica.
-- **Almacenes de datos (data warehouses): bases de datos optimi-** zadas para el análisis y la generación de informes.
-- **Análisis de datos: técnicas estadísticas, minería de datos y algo-** ritmos de aprendizaje automático (machine learning).
+- **Almacenes de datos (data warehouses)**: bases de datos optimizadas para el análisis y la generación de informes.
+- **Análisis de datos**: técnicas estadísticas, minería de datos y algoritmos de aprendizaje automático (machine learning).
 - **Visualización: herramientas como Power BI, Tableau o Qlik Sense,** que convierten los datos analizados en gráficos, tablas y dashboards interactivos.
 
 #### Beneficios de la inteligencia de negocio
@@ -32,7 +32,7 @@ La inteligencia de negocio permite a las empresas:
 - **Mejora en la toma de decisiones: permite decisiones informadas** basadas en datos objetivos.
 - **Identificación de oportunidades: ayuda a descubrir patrones,** tendencias y áreas de mejora.
 - **Eficiencia operativa: optimiza procesos internos mediante el** análisis de rendimiento.
-- **Segmentación de clientes: identifica las necesidades y compor-** tamientos de los clientes para estrategias más efectivas.
+- **Segmentación de clientes**: identifica las necesidades y comportamientos de los clientes para estrategias más efectivas.
 - **Ventaja competitiva: facilita una respuesta más rápida y efectiva** ante cambios en el mercado.
 #### Herramientas de inteligencia de negocio
 
@@ -53,7 +53,7 @@ La inteligencia de negocio permite a las empresas:
 #### Empresa de retail
 
 - **Problema: necesidad de identificar productos con mayor** rotación y mejorar la gestión de inventarios.
-- **Solución BI:** – **Datos recopilados: ventas diarias, inventarios, tenden-** cias del mercado. – **Proceso ETL: limpieza y carga de datos en un Data Wa-** rehouse. – **Análisis: identificación de productos más vendidos, tem-** poradas altas y bajas. – **Visualización: creación de dashboards con gráficos in-** teractivos que muestran ventas por región, producto y tiempo.
+- **Solución BI:** – **Datos recopilados**: ventas diarias, inventarios, tendencias del mercado. – **Proceso ETL**: limpieza y carga de datos en un Data Warehouse. – **Análisis**: identificación de productos más vendidos, temporadas altas y bajas. – **Visualización**: creación de dashboards con gráficos interactivos que muestran ventas por región, producto y tiempo.
 - **Resultado: mejora en la gestión de inventarios y aumento** del margen de beneficio.
 La inteligencia de negocio es una herramienta indispensable para las empresas modernas, ya que permite tomar decisiones basadas en datos y optimizar todos los aspectos del negocio. Con el avance de la tecnología y herramientas cada vez más accesibles, la BI se ha convertido en una pieza clave para obtener ventaja competitiva y responder de manera eficiente a los desafíos del mercado.
 
@@ -82,7 +82,7 @@ Una empresa puede integrar el inventario, las ventas y la contabilidad en un mis
 Un ERP se organiza en módulos, cada uno enfocado en un área específica del negocio. Los más comunes son:
 
 - **Finanzas y contabilidad: gestión de presupuestos, cuentas por** pagar y por cobrar, y generación de informes financieros.
-- **Gestión de inventarios: control de existencias, pedidos y optimi-** zación de la cadena de suministro.
+- **Gestión de inventarios**: control de existencias, pedidos y optimización de la cadena de suministro.
 - **Recursos humanos: nóminas, reclutamiento, evaluación de** desempeño y capacitación.
 - **Gestión de ventas: registro de pedidos, facturación y análisis de** ventas.
 - **Producción: planificación de la producción, control de calidad y** seguimiento de procesos.
@@ -94,14 +94,14 @@ Un ERP se organiza en módulos, cada uno enfocado en un área específica del ne
 - **Integración de datos: proporciona una visión global y consistente** de la empresa.
 - **Toma de decisiones basada en datos: ofrece informes y análisis** en tiempo real para apoyar decisiones estratégicas.
 - **Reducción de costes: optimiza recursos y minimiza errores en los** procesos.
-- **Cumplimiento normativo: ayuda a cumplir con regulaciones lo-** cales e internacionales mediante módulos especializados.
+- **Cumplimiento normativo**: ayuda a cumplir con regulaciones locales e internacionales mediante módulos especializados.
 #### Desventajas de un ERP
 
 - **Coste elevado: la implementación y mantenimiento de un ERP** puede ser caro, especialmente para pequeñas empresas.
 - **Complejidad: requiere tiempo y esfuerzo para adaptarse a los** procesos de la organización.
 
-- **Dependencia del proveedor: las actualizaciones y soporte técni-** co pueden depender completamente del proveedor.
-- **Resistencia al cambio: los empleados pueden enfrentar dificulta-** des para adaptarse a nuevos sistemas.
+- **Dependencia del proveedor**: las actualizaciones y soporte técnico pueden depender completamente del proveedor.
+- **Resistencia al cambio**: los empleados pueden enfrentar dificultades para adaptarse a nuevos sistemas.
 #### Principales soluciones ERP en el mercado
 
 - **SAP ERP: líder en el mercado, con funcionalidades avanzadas para** grandes empresas.
@@ -143,8 +143,8 @@ Un CRM puede registrar automáticamente las interacciones de un cliente con la e
 
 - **Gestión de contactos: almacena información detallada de los** clientes en un lugar centralizado.
 - **Automatización de ventas: gestiona el ciclo de ventas, desde la** generación de prospectos hasta el cierre de oportunidades.
-- **Automatización de marketing: permite crear campañas per-** sonalizadas, enviar correos masivos y realizar seguimiento a las respuestas.
-- **Gestión de servicios: administra solicitudes, consultas y proble-** mas de los clientes para mejorar el soporte.
+- **Automatización de marketing**: permite crear campañas personalizadas, enviar correos masivos y realizar seguimiento a las respuestas.
+- **Gestión de servicios**: administra solicitudes, consultas y problemas de los clientes para mejorar el soporte.
 - **Análisis y reportes: proporciona datos en tiempo real sobre el** rendimiento de las ventas, la eficacia del marketing y la satisfacción del cliente.
 - **Accesibilidad: la mayoría de los CRM modernos están en la nube,** lo que facilita el acceso desde cualquier lugar.
 #### Tipos de CRM
@@ -155,16 +155,16 @@ Un CRM puede registrar automáticamente las interacciones de un cliente con la e
 - **CRM analítico: se centra en el análisis de datos para comprender** mejor el comportamiento del cliente y predecir tendencias.
 #### Ejemplo: Zoho CRM.
 
-- **CRM colaborativo: facilita la comunicación entre los departa-** mentos internos de una empresa para ofrecer un servicio más coordinado.
+- **CRM colaborativo**: facilita la comunicación entre los departamentos internos de una empresa para ofrecer un servicio más coordinado.
 #### Ejemplo: Microsoft Dynamics 365.
 
 #### Beneficios de implementar un CRM
 
 - **Mejora en la atención al cliente: proporciona un historial completo** de interacciones, permitiendo respuestas personalizadas y rápidas.
 - **Incremento en las ventas: identifica oportunidades de ventas** cruzadas y upselling, mejorando la conversión de prospectos.
-- **Fidelización de clientes: ayuda a fortalecer las relaciones me-** diante un seguimiento constante y personalizado.
+- **Fidelización de clientes**: ayuda a fortalecer las relaciones mediante un seguimiento constante y personalizado.
 
-- **Optimización del tiempo: automatiza tareas repetitivas, permi-** tiendo al equipo enfocarse en actividades estratégicas.
+- **Optimización del tiempo**: automatiza tareas repetitivas, permitiendo al equipo enfocarse en actividades estratégicas.
 - **Decisiones basadas en datos: ofrece métricas y análisis que apoyan** la planificación y ejecución de estrategias.
 #### Principales soluciones CRM en el mercado
 
@@ -173,12 +173,12 @@ Un CRM puede registrar automáticamente las interacciones de un cliente con la e
 - **Zoho CRM: solución asequible con un enfoque en la automatización** de procesos.
 - **Microsoft Dynamics 365: integra CRM con ERP, ofreciendo una** solución completa para grandes organizaciones.
 - **Pipedrive: centrado en la gestión del pipeline de ventas, ideal** para equipos comerciales.
-- **SugarCRM: personalizable y diseñado para empresas con necesi-** dades específicas.
+- **SugarCRM**: personalizable y diseñado para empresas con necesidades específicas.
 #### Ejemplo práctico del uso de un CRM
 
 - **Escenario:** Una empresa de ecommerce quiere mejorar la experiencia de compra de sus clientes.
 - **Problema:** – Los clientes reciben correos genéricos sin personalización. – Los representantes de ventas no tienen acceso al historial de interacciones.
-- **Solución CRM:** – **Automatización de marketing: segmenta clientes por hábitos de compra y envía correos** personalizados con recomendaciones. – **Gestión de contactos: proporciona a los vendedores un historial completo de las com-** pras y consultas de cada cliente.
+- **Solución CRM:** – **Automatización de marketing**: segmenta clientes por hábitos de compra y envía correos** personalizados con recomendaciones. – **Gestión de contactos: proporciona a los vendedores un historial completo de las compras y consultas de cada cliente.
 - **Resultado:** – Aumento del 20% en la tasa de conversión. – Mejora en la satisfacción del cliente gracias a un servicio más personalizado.
 
 #### Desafíos al implementar un CRM
@@ -195,7 +195,7 @@ Odoo es un ERP modular y flexible que permite gestionar diferentes áreas de una
 
 #### Requisitos previos
 
-1. **Docker y Docker Compose instalados: Docker debe estar ins-** talado en el sistema. Si no es así, pueden seguirse los pasos de instalación descritos en el apartado anterior.
+1. **Docker y Docker Compose instalados**: Docker debe estar instalado en el sistema. Si no es así, pueden seguirse los pasos de instalación descritos en el apartado anterior.
 #### – Verificar la instalación:
 
 docker --version docker-compose --version
@@ -293,7 +293,7 @@ docker-compose down -v
 6. **Ventajas de usar Docker para instalar Odoo:**
 - **Rapidez: la instalación y configuración se completan en pocos pasos.**
 - **Portabilidad: el sistema puede ejecutarse en cualquier máquina** con Docker instalado.
-- **Aislamiento: Odoo y PostgreSQL se ejecutan en contenedores se-** parados, evitando conflictos con otras aplicaciones.
+- **Aislamiento**: Odoo y PostgreSQL se ejecutan en contenedores separados, evitando conflictos con otras aplicaciones.
 - **Facilidad de mantenimiento: actualizar Odoo o PostgreSQL implica** simplemente reemplazar las imágenes y reiniciar los contenedores.
 Instalar Odoo con Docker es un enfoque eficiente, rápido y escalable para implementar este ERP en cualquier entorno. Con Docker Compose, la gestión de múltiples contenedores se simplifica, lo que permite a las empresas centrarse en la configuración y uso de Odoo sin preocuparse por problemas de dependencias o instalación manual. Esto hace que Docker sea una solución ideal para entornos de desarrollo, pruebas y producción.
 
@@ -353,12 +353,12 @@ necesidades.
 Los flujos de trabajo (workflows) definen los procesos automatizados en Odoo.
 
 - **Automatización de tareas: en módulos como CRM, puedes** configurar alertas automáticas, asignaciones de clientes potenciales o seguimientos de actividades.
-- **Reglas de inventario: configura reglas automáticas para pe-** didos de reabastecimiento basadas en el nivel de stock.
+- **Reglas de inventario**: configura reglas automáticas para pedidos de reabastecimiento basadas en el nivel de stock.
 #### – Personalización de vistas y formularios:
 
 - **Edición básica: utilizar el editor visual para modificar vistas** y formularios directamente desde la interfaz.
 
-- **Desarrollo avanzado: si se necesitan personalizaciones es-** pecíficas, puede modificarse el XML de las vistas o añadir módulos personalizados mediante el desarrollo en Python.
+- **Desarrollo avanzado**: si se necesitan personalizaciones específicas, puede modificarse el XML de las vistas o añadir módulos personalizados mediante el desarrollo en Python.
 5. **Configuración de correo electrónico:**
 #### – Configuración de servidores de correo:
 
@@ -387,7 +387,7 @@ Los flujos de trabajo (workflows) definen los procesos automatizados en Odoo.
 
 que representen la marca.
 
-  - **Reportes personalizados: en módulos como Contabilidad o** **Ventas, pueden personalizarse informes para incluir el logoti-** po y formato requerido por tu empresa.
+  - **Reportes personalizados**: en módulos como Contabilidad o** **Ventas, pueden personalizarse informes para incluir el logotipo y formato requerido por tu empresa.
 
 8. **Ejemplo práctico de configuración:**
 #### – Empresa de ecommerce:
@@ -409,7 +409,7 @@ Odoo ofrece herramientas avanzadas para la creación de informes **personalizado
 
 #### Tipos de informes en Odoo
 
-- **Informes predefinidos: Odoo incluye informes estándar para mó-** dulos como ventas, contabilidad, inventario y más. Estos son listos para usar y proporcionan información general.
+- **Informes predefinidos**: Odoo incluye informes estándar para módulos como ventas, contabilidad, inventario y más. Estos son listos para usar y proporcionan información general.
 - **Informes personalizados: se pueden crear informes específicos** según las necesidades del negocio mediante el generador de informes o utilizando herramientas avanzadas como Studio o QWeb.
 - **Dashboards (paneles): ofrecen una vista interactiva y gráfica de** los datos en tiempo real.
 
@@ -502,9 +502,9 @@ La integración de Odoo con aplicaciones ofimáticas permite a las empresas opti
 
 #### Importancia de la integración
 
-- **Flujos de trabajo optimizados: la conexión entre Odoo y apli-** caciones ofimáticas permite a los usuarios trabajar con datos empresariales en herramientas conocidas.
+- **Flujos de trabajo optimizados**: la conexión entre Odoo y aplicaciones ofimáticas permite a los usuarios trabajar con datos empresariales en herramientas conocidas.
 - **Análisis avanzado: exportar datos desde Odoo a hojas de cálculo** permite realizar análisis detallados o personalizar reportes.
-- **Automatización: la integración reduce la duplicación de esfuer-** zos al automatizar la sincronización de datos entre sistemas.
+- **Automatización**: la integración reduce la duplicación de esfuerzos al automatizar la sincronización de datos entre sistemas.
 - **Facilidad de colaboración: mejora la comunicación entre equipos** al compartir información actualizada en tiempo real.
 #### Aplicaciones ofimáticas compatibles
 
@@ -561,7 +561,7 @@ La integración de Odoo con aplicaciones ofimáticas permite a las empresas opti
 - **Integración mediante APIs:** Odoo ofrece una API REST que permite conectar el sistema con aplicaciones ofimáticas a través de scripts o complementos.
 - **Ejemplo de script para Google Sheets:** function fetchOdooData() { var url = "[https://tuservidorodoo.com/jsonrpc"](https://tuservidorodoo.com/jsonrpc"); var payload = { jsonrpc: "2.0", method: "call", params: { model: "res.partner", domain: [], fields: ["name", "email", "phone"], }, id: 1, }; var options = { method: "post", contentType: "application/json", payload: JSON.stringify(payload), }; var response = UrlFetchApp.fetch(url, options); var data = JSON.parse(response.getContentText()); // Procesar los datos en la hoja de cálculo var sheet = SpreadsheetApp.getActiveSpreadsheet(). getActiveSheet(); sheet.clear(); data.result.forEach((partner) => { sheet.appendRow([partner.name, partner.email, partner.phone]); }); }
 
-- **Complementos y extensiones:** – **Microsoft Power BI y Google Data Studio: conecta Odoo para** importar datos automáticamente y crear dashboards interactivos. – **Zapier e Integromat: automatiza tareas, como enviar datos des-** de Odoo a hojas de cálculo o herramientas de email marketing.
+- **Complementos y extensiones:** – **Microsoft Power BI y Google Data Studio**: conecta Odoo para** importar datos automáticamente y crear dashboards interactivos. – **Zapier e Integromat: automatiza tareas, como enviar datos desde Odoo a hojas de cálculo o herramientas de email marketing.
 #### Ejemplo práctico: exportación de ventas a Excel
 
 #### Escenario: una empresa desea analizar las ventas del último trimestre en Excel.
@@ -581,7 +581,7 @@ Abrir el archivo y usar herramientas de Excel, como tablas dinámicas o gráfico
 - **Productividad: simplifica la transferencia de datos entre Odoo y** las aplicaciones ofimáticas.
 - **Colaboración: facilita el trabajo en equipo al compartir datos en** formatos accesibles.
 - **Análisis avanzado: herramientas como Excel o Power BI amplían** las capacidades analíticas de Odoo.
-- **Automatización: reduce tareas manuales mediante scripts o inte-** graciones automáticas.
+- **Automatización**: reduce tareas manuales mediante scripts o integraciones automáticas.
 La integración de Odoo con aplicaciones ofimáticas potencia la funcionalidad del ERP al aprovechar herramientas conocidas para análisis, colaboración y automatización. Ya sea mediante exportaciones manuales, scripts personalizados o complementos, esta integración permite a las empresas optimizar sus procesos y mejorar la eficiencia operativa.
 
 ### 7.8. Configuración de un CRM en Odoo
@@ -601,7 +601,7 @@ El módulo CRM (Customer Relationship Management) de Odoo está diseñado para g
 - **Acceder a la configuración del CRM:**
 #### – Ir a CRM → Configuración.
 
-- **Personalización de opciones:** – **Pipeline de ventas: activa el seguimiento visual de las oportu-** nidades en diferentes etapas. – **Puntaje de oportunidad: habilita el cálculo automático de** probabilidades de conversión. – **Etiquetas: crea etiquetas para categorizar las oportunidades,** como "Prioridad alta", "Nuevo cliente", etc. – **Alertas automáticas: configura recordatorios para actividades** pendientes.
+- **Personalización de opciones:** – **Pipeline de ventas**: activa el seguimiento visual de las oportunidades en diferentes etapas. – **Puntaje de oportunidad: habilita el cálculo automático de** probabilidades de conversión. – **Etiquetas: crea etiquetas para categorizar las oportunidades,** como "Prioridad alta", "Nuevo cliente", etc. – **Alertas automáticas: configura recordatorios para actividades** pendientes.
 
 #### Creación y personalización del pipeline
 
@@ -646,7 +646,7 @@ El módulo CRM (Customer Relationship Management) de Odoo está diseñado para g
 #### Reportes en el CRM
 
 - **Análisis del pipeline:** – Ir a CRM → Informes → Análisis del pipeline. – Filtrar y agrupar datos por vendedor, cliente, etapa o período.
-- **Tasa de conversión: monitorear cuántas oportunidades se con-** vierten en ventas y en qué etapa se pierden.
+- **Tasa de conversión**: monitorear cuántas oportunidades se convierten en ventas y en qué etapa se pierden.
 - **Rendimiento de vendedores: consultar los ingresos generados** por cada vendedor y analizar su desempeño.
 
 #### Ejemplo práctico de configuración

@@ -480,6 +480,18 @@ function showWelcome() {
 
 const mdCache = {};
 
+// Literal "<tag>" mentions in the source text (e.g. "<h1>", "<textarea>") would
+// otherwise be parsed as real HTML by marked and break the page. Escape stray
+// angle brackets everywhere except inside fenced ```code``` blocks, where the
+// content is meant to be shown as code and marked already escapes it safely.
+function escapeStrayAngleBrackets(md) {
+  const parts = md.split(/(```[\s\S]*?```)/g);
+  return parts.map((part, i) => {
+    if (i % 2 === 1) return part; // fenced code block: leave untouched
+    return part.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }).join('');
+}
+
 async function showTema(path) {
   const found = findTema(path);
   if (!found) { showWelcome(); return; }
@@ -494,7 +506,7 @@ async function showTema(path) {
   if (window.innerWidth <= 860) closeSidebar();
 
   if (mdCache[tema.mdFile]) {
-    content.innerHTML = marked.parse(mdCache[tema.mdFile]);
+    content.innerHTML = marked.parse(escapeStrayAngleBrackets(mdCache[tema.mdFile]));
     return;
   }
 
@@ -507,7 +519,7 @@ async function showTema(path) {
     // Only render if the user hasn't navigated away while loading
     if (decodeURIComponent(location.hash.replace(/^#/, '')) === path) {
       content.innerHTML = typeof marked !== 'undefined'
-        ? marked.parse(md)
+        ? marked.parse(escapeStrayAngleBrackets(md))
         : '<p>No se pudo cargar el renderizador de Markdown.</p>';
     }
   } catch (err) {
