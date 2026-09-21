@@ -10,9 +10,9 @@ El SEO se refiere a las técnicas y estrategias destinadas a mejorar el posicion
 
 #### Componentes principales del SEO
 
-- **SEO On-Page: optimización interna del sitio web.** – Uso adecuado de palabras clave. – Etiquetas HTML bien estructuradas (<title>, <meta description>, <h1>). – Contenido relevante, único y actualizado. – Mejora de la experiencia del usuario (velocidad de carga, diseño responsive, accesibilidad).
-- **SEO Off-Page: factores externos que influyen en la autoridad del sitio.** – Construcción de enlaces (backlinks). – Presencia en redes sociales. – Menciones en otros sitios web.
-- **SEO Técnico: aspectos técnicos que afectan el rastreo e indexación del sitio.** – Creación de un archivo sitemap.xml y un archivo robots.txt. – Optimización de la velocidad de carga. – Uso de datos estructurados (schema.org).
+- **SEO On-Page**: optimización interna del sitio web. – Uso adecuado de palabras clave. – Etiquetas HTML bien estructuradas (<title>, <meta description>, <h1>). – Contenido relevante, único y actualizado. – Mejora de la experiencia del usuario (velocidad de carga, diseño responsive, accesibilidad).
+- **SEO Off-Page**: factores externos que influyen en la autoridad del sitio. – Construcción de enlaces (backlinks). – Presencia en redes sociales. – Menciones en otros sitios web.
+- **SEO Técnico**: aspectos técnicos que afectan el rastreo e indexación del sitio. – Creación de un archivo sitemap.xml y un archivo robots.txt. – Optimización de la velocidad de carga. – Uso de datos estructurados (schema.org).
 #### Ventajas del SEO
 
 - Genera tráfico orgánico de calidad sin coste por clic.
@@ -32,12 +32,12 @@ El SEM es una estrategia de marketing digital que utiliza campañas pagadas para
 #### Componentes principales del SEM
 
 - **Publicidad de búsqueda (Search Ads):** – Anuncios que aparecen en la parte superior o inferior de los resultados de búsqueda. – Se configuran utilizando palabras clave relevantes para el negocio.
-- **Pago por clic (PPC):** – El anunciante paga una cantidad cada vez que un usuario hace clic en su anuncio. – **Ejemplo: "Cómpralo ahora", "Descúbrelo aquí".**
+- **Pago por clic (PPC):** – El anunciante paga una cantidad cada vez que un usuario hace clic en su anuncio. – **Ejemplo**: "Cómpralo ahora", "Descúbrelo aquí".
 #### Campañas segmentadas
 
   - Permite seleccionar la audiencia objetivo en función de la ubicación, idioma, dispositivo, intereses, etc.
 
-  - **Ejemplo: Mostrar un anuncio solo a usuarios en España interesados en tecnología.**
+  - **Ejemplo**: Mostrar un anuncio solo a usuarios en España interesados en tecnología.
 
 #### Ventajas del SEM
 

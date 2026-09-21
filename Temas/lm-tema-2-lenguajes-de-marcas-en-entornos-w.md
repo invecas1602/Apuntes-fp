@@ -12,41 +12,33 @@ Los lenguajes de marcas han evolucionado a lo largo de las décadas para adaptar
 
 #### Orígenes de los lenguajes de marcas
 
-- **1960s: nace el concepto de "lenguajes de marcas" con la necesidad** de estructurar y gestionar documentos en sistemas informáticos. – **GML (Generalized Markup Language): desarrollado por IBM, se** considera uno de los primeros lenguajes de marcas. – Introdujo la idea de usar etiquetas para describir la estructura de un documento.
+- **1960s**: nace el concepto de "lenguajes de marcas" con la necesidad de estructurar y gestionar documentos en sistemas informáticos.
+- **GML (Generalized Markup Language)**: desarrollado por IBM, se considera uno de los primeros lenguajes de marcas. Introdujo la idea de usar etiquetas para describir la estructura de un documento.
 
 #### Aparición de estándares universales
 
-- **1980s:** – **SGML (Standard Generalized Markup Language):**
-- Surge como un estándar internacional (ISO 8879:1986) basado en GML.
-- Proporciona las bases para la creación de lenguajes más específicos como HTML y XML.
+- **1980s — SGML (Standard Generalized Markup Language)**: surge como un estándar internacional (ISO 8879:1986) basado en GML. Proporciona las bases para la creación de lenguajes más específicos como HTML y XML.
+
 #### Lenguajes de marcas en la web
 
-- **1990s:** – **HTML (HyperText Markup Language):**
-- Introducido en 1991 por Tim Berners-Lee, permitió la creación y estructuración de páginas web.
-- Inicialmente centrado en la presentación, luego evolucionó para incluir semántica y accesibilidad.
-  - **XML (eXtensible Markup Language):**
+- **1990s — HTML (HyperText Markup Language)**: introducido en 1991 por Tim Berners-Lee, permitió la creación y estructuración de páginas web. Inicialmente centrado en la presentación, luego evolucionó para incluir semántica y accesibilidad.
+- **XML (eXtensible Markup Language)**: propuesto por el W3C en 1998, simplificó y generalizó SGML, convirtiéndose en una herramienta clave para el intercambio de datos.
 
-- Propuesto por el W3C en 1998, simplificó y generalizó SGML, convirtiéndose en una herramienta clave para el intercambio de datos.
 #### Expansión y especialización
 
-- 2000s: – **XHTML (eXtensible HyperText Markup Language):**
-- Introducido como una combinación de XML y HTML, buscando mayor rigor en la estructura de documentos web.
-  - **RSS y Atom:**
+- **2000s — XHTML (eXtensible HyperText Markup Language)**: introducido como una combinación de XML y HTML, buscando mayor rigor en la estructura de documentos web.
+- **RSS y Atom**: lenguajes de marcas diseñados para la sindicación de contenidos (noticias, blogs, etc.).
+- **SVG (Scalable Vector Graphics)**: introducido para describir gráficos vectoriales en formato XML.
 
-- Lenguajes de marcas diseñados para la sindicación de contenidos (noticias, blogs, etc.).
-  - **SVG (Scalable Vector Graphics):**
-
-- Introducido para describir gráficos vectoriales en formato XML.
 #### Lenguajes modernos y frameworks relacionados
 
-- **2010s:** – Mayor uso de lenguajes como JSON, aunque no es un lenguaje de marcas en sí, para representar datos estructurados.
+- **2010s**: mayor uso de lenguajes como JSON, aunque no es un lenguaje de marcas en sí, para representar datos estructurados.
+- **HTML5**: lanzado en 2014 como una evolución significativa de HTML, con soporte para multimedia, gráficos y mejoras semánticas.
 
-#### – HTML5:
-
-- Lanzado en 2014 como una evolución significativa de HTML, con soporte para multimedia, gráficos y mejoras semánticas.
 #### Tendencias actuales
 
-- **2020s:** – Los lenguajes de marcas siguen siendo fundamentales, pero cada vez más se utilizan en conjunto con frameworks y tecnologías como React, Angular o Vue.js. – Aumenta el enfoque en estándares accesibles y sostenibles, como el uso combinado de JSON-LD y HTML para datos estructurados.
+- **2020s**: los lenguajes de marcas siguen siendo fundamentales, pero cada vez más se utilizan en conjunto con frameworks y tecnologías como React, Angular o Vue.js. Aumenta el enfoque en estándares accesibles y sostenibles, como el uso combinado de JSON-LD y HTML para datos estructurados.
+
 #### Tabla resumen de la evolución de los lenguajes de marcas
 
 |Década|Hito/evento|Descripción|
@@ -106,9 +98,9 @@ Las etiquetas HTML son elementos que encierran contenido y definen su propósito
 
 <p>Este es un párrafo.</p> <h1>Título principal</h1> <img src="imagen.jpg" alt="Descripción de la imagen">
 
-- **Etiqueta de apertura: <p>**
-- **Etiqueta de cierre: </p>**
-- **Contenido: texto o elementos dentro de las etiquetas.**
+- **Etiqueta de apertura**: <p>
+- **Etiqueta de cierre**: </p>
+- **Contenido**: texto o elementos dentro de las etiquetas.
 
 #### Atributos HTML
 
@@ -172,9 +164,9 @@ En HTML, un elemento está compuesto por una etiqueta de apertura, un contenido 
 
 <etiqueta_atributos>Contenido</etiqueta>
 
-- **Etiqueta de apertura: comienza el elemento y puede incluir** atributos. Ejemplo: <p>
-- **Contenido: información o elementos anidados.** Ejemplo: Este es un párrafo.
-- **Etiqueta de cierre: finaliza el elemento.** Ejemplo: </p>
+- **Etiqueta de apertura**: comienza el elemento y puede incluir atributos. Ejemplo: <p>
+- **Contenido**: información o elementos anidados. Ejemplo: Este es un párrafo.
+- **Etiqueta de cierre**: finaliza el elemento. Ejemplo: </p>
 
 #### Ejemplo completo
 
@@ -327,7 +319,7 @@ HTML ha evolucionado desde su creación en 1991, incorporando nuevas funcionalid
 
 - Introducción de hojas de estilo en cascada (CSS) para separar contenido y diseño.
 - Soporte para scripting con JavaScript.
-- Tres tipos de documento: ▪ **Estricto (Strict): solo permitía etiquetas semánticas, sin** diseño inline. ▪ **Transicional (Transitional): permitía algunas etiquetas** no recomendadas. ▪ **Frameset: permitía el uso de frames en la página.**
+- Tres tipos de documento: ▪ **Estricto (Strict)**: solo permitía etiquetas semánticas, sin diseño inline. ▪ **Transicional (Transitional)**: permitía algunas etiquetas no recomendadas. ▪ **Frameset**: permitía el uso de frames en la página.
 #### – Limitaciones:
 
 - La implementación inicial de CSS y JavaScript era inconsistente entre navegadores.
@@ -380,18 +372,18 @@ Son esenciales para escribir y editar el código HTML, CSS, JavaScript y otros l
 
 - **Visual Studio Code**: editor avanzado con soporte para extensiones, depuración y control de versiones.
 - **Sublime Text**: editor ligero con funcionalidades como autocompletado y selección múltiple.
-- **Atom: editor personalizable creado por GitHub.**
-- **Notepad++: alternativa sencilla para usuarios de Windows.**
+- **Atom**: editor personalizable creado por GitHub.
+- **Notepad++**: alternativa sencilla para usuarios de Windows.
 #### Herramientas de diseño visual
 
 Estas herramientas ayudan a crear prototipos, wireframes y diseños de alta fidelidad antes de pasar al desarrollo.
 
 **Ejemplos:**
 
-- **Figma: herramienta de diseño colaborativo basada en la nube,** ideal para prototipos interactivos.
-- **Adobe XD: software de diseño y prototipado para interfaces de** usuario.
-- **Sketch: popular entre diseñadores, enfocado en la creación de** interfaces.
-- **Canva: ideal para diseñadores principiantes o para crear gráficos** simples.
+- **Figma**: herramienta de diseño colaborativo basada en la nube, ideal para prototipos interactivos.
+- **Adobe XD**: software de diseño y prototipado para interfaces de usuario.
+- **Sketch**: popular entre diseñadores, enfocado en la creación de interfaces.
+- **Canva**: ideal para diseñadores principiantes o para crear gráficos simples.
 
 #### Frameworks y bibliotecas CSS
 
@@ -400,8 +392,8 @@ Facilitan la creación de diseños consistentes y responsivos.
 **Ejemplos:**
 
 - **Bootstrap**: framework popular para diseño responsive (adaptables) con componentes predefinidos.
-- **Tailwind CSS: sistema de utilidades CSS altamente personalizable.**
-- **Materialize: basado en Material Design de Google.**
+- **Tailwind CSS**: sistema de utilidades CSS altamente personalizable.
+- **Materialize**: basado en Material Design de Google.
 - **Foundation**: framework avanzado con herramientas para accesibilidad y responsive design.
 #### Sistemas de gestión de contenido (CMS)
 
@@ -410,9 +402,9 @@ Permiten desarrollar sitios web sin necesidad de programar desde cero.
 **Ejemplos:**
 
 - **WordPress**: CMS más utilizado, ideal para blogs y sitios web corporativos.
-- **Drupal: CMS flexible y robusto para proyectos complejos.**
-- **Joomla: alternativa a WordPress y Drupal.**
-- **Shopify: ideal para tiendas en línea.**
+- **Drupal**: CMS flexible y robusto para proyectos complejos.
+- **Joomla**: alternativa a WordPress y Drupal.
+- **Shopify**: ideal para tiendas en línea.
 #### Herramientas de depuración y pruebas
 
 Ayudan a verificar la funcionalidad, accesibilidad y rendimiento del sitio web.
@@ -421,7 +413,7 @@ Ayudan a verificar la funcionalidad, accesibilidad y rendimiento del sitio web.
 
 - **Google Chrome DevTools**: herramienta integrada en el navegador Chrome para depurar HTML, CSS y JavaScript.
 - **Firefox Developer Tools**: similar a Chrome DevTools, pero con características específicas para desarrolladores.
-- **Lighthouse: herramienta de Google para medir el rendimiento,** SEO y accesibilidad.
+- **Lighthouse**: herramienta de Google para medir el rendimiento, SEO y accesibilidad.
 - **BrowserStack**: pruebas multiplataforma para verificar el comportamiento en diferentes navegadores y dispositivos.
 
 #### Herramientas de diseño responsive
@@ -431,7 +423,7 @@ Permiten comprobar cómo se ve un sitio en diferentes tamaños de pantalla.
 **Ejemplos:**
 
 - **Responsively App**: aplicación para pruebas responsivas en múltiples dispositivos simultáneamente.
-- **Screenfly: herramienta online para probar diseños en dispositivos** específicos.
+- **Screenfly**: herramienta online para probar diseños en dispositivos específicos.
 - **Device Mode en DevTools**: funcionalidad integrada en navegadores modernos como Chrome y Firefox.
 #### Herramientas de gestión de proyectos
 
@@ -439,9 +431,9 @@ Ayudan a coordinar equipos, realizar un seguimiento del progreso y organizar tar
 
 **Ejemplos:**
 
-- **Trello: gestión de proyectos basada en tableros y tarjetas.**
-- **Asana: plataforma para la planificación y gestión de tareas.**
-- **Jira: popular en equipos de desarrollo ágil.**
+- **Trello**: gestión de proyectos basada en tableros y tarjetas.
+- **Asana**: plataforma para la planificación y gestión de tareas.
+- **Jira**: popular en equipos de desarrollo ágil.
 - **Notion**: herramienta todo en uno para notas, planificación y colaboración.
 #### Generadores de sitios web estáticos
 
@@ -449,9 +441,9 @@ Simplifican la creación de sitios estáticos con enfoque en rendimiento y SEO.
 
 **Ejemplos:**
 
-- **Jekyll: generador estático basado en Ruby, ideal para blogs.**
-- **Hugo: generador rápido y flexible basado en Go.**
-- **Gatsby: basado en React, orientado a sitios rápidos y modernos.**
+- **Jekyll**: generador estático basado en Ruby, ideal para blogs.
+- **Hugo**: generador rápido y flexible basado en Go.
+- **Gatsby**: basado en React, orientado a sitios rápidos y modernos.
 
 #### Plataformas de alojamiento web
 
@@ -459,9 +451,9 @@ Permiten subir un sitio web y mantenerlo accesible al público.
 
 **Ejemplos:**
 
-- **GitHub Pages: gratuito para proyectos estáticos.**
-- **Netlify: fácil de usar, con integración CI/CD para despliegues rápidos.**
-- **Vercel: ideal para proyectos basados en frameworks como Next.js.**
+- **GitHub Pages**: gratuito para proyectos estáticos.
+- **Netlify**: fácil de usar, con integración CI/CD para despliegues rápidos.
+- **Vercel**: ideal para proyectos basados en frameworks como Next.js.
 - **AWS**: para alojar sitios web con mayor personalización y escalabilidad.
 #### Herramientas de análisis y optimización
 
@@ -469,8 +461,8 @@ Ayudan a mejorar la experiencia del usuario, la velocidad y el SEO.
 
 **Ejemplos:**
 
-- **Google Analytics: analiza el tráfico del sitio web.**
-- **Ahrefs: herramienta avanzada para análisis de SEO.**
+- **Google Analytics**: analiza el tráfico del sitio web.
+- **Ahrefs**: herramienta avanzada para análisis de SEO.
 - **GTmetrix**: mide el rendimiento de un sitio y ofrece recomendaciones para mejorarlo.
 - **PageSpeed Insights**: diagnostica problemas de velocidad y propone soluciones.
 Estas herramientas son fundamentales para diseñadores y desarrolladores web, permitiendo abordar proyectos de forma eficiente, creativa y con resultados profesionales. La selección dependerá del tipo de proyecto, las habilidades del equipo y los objetivos del sitio web.
@@ -485,9 +477,9 @@ Consiste en usar formatos estándares, como RSS o Atom, para compartir contenido
 
 #### Términos clave
 
-- **RSS (Really Simple Syndication): formato ampliamente utilizado** para la sindicación de contenido web, basado en XML.
+- **RSS (Really Simple Syndication)**: formato ampliamente utilizado para la sindicación de contenido web, basado en XML.
 - **Atom**: alternativa a RSS, también basado en XML, pero con mejoras en extensibilidad y estándares.
-- **Feed (acnal): archivo que comprende el contenido sindicado. Los** usuarios pueden suscribirse a este para recibir actualizaciones.
+- **Feed (acnal)**: archivo que comprende el contenido sindicado. Los usuarios pueden suscribirse a este para recibir actualizaciones.
 #### ¿Cómo funciona la sindicación?
 
 #### Generación del feed
@@ -509,42 +501,42 @@ Consiste en usar formatos estándares, como RSS o Atom, para compartir contenido
 
 #### Para los usuarios
 
-- **Acceso rápido: reciben actualizaciones sin necesidad de visitar el** sitio web.
-- **Personalización: pueden suscribirse solo al contenido que les** interesa.
-- **Ahorro de tiempo: centralizan información de diferentes fuentes** en un único lector de feeds.
+- **Acceso rápido**: reciben actualizaciones sin necesidad de visitar el sitio web.
+- **Personalización**: pueden suscribirse solo al contenido que les interesa.
+- **Ahorro de tiempo**: centralizan información de diferentes fuentes en un único lector de feeds.
 
 #### Para los creadores de contenido
 
-- **Mayor alcance: permite distribuir contenido en múltiples plataformas.**
+- **Mayor alcance**: permite distribuir contenido en múltiples plataformas.
 - **Aumento del tráfico**: los enlaces en los feeds redirigen a los usuarios al sitio original.
-- **Automatización: las actualizaciones son automáticas, ahorrando** tiempo en la distribución.
+- **Automatización**: las actualizaciones son automáticas, ahorrando tiempo en la distribución.
 #### Desventajas de la sindicación de contenidos
 
-- **Limitación de formatos: los feeds no admiten diseños visuales** complejos, lo que puede restar atractivo al contenido.
+- **Limitación de formatos**: los feeds no admiten diseños visuales complejos, lo que puede restar atractivo al contenido.
 - **Contenido duplicado**: puede generar problemas de SEO si se distribuyen versiones completas del contenido.
-- **Control limitado: una vez publicado el feed, el creador no tiene** control sobre cómo o dónde se utiliza.
+- **Control limitado**: una vez publicado el feed, el creador no tiene control sobre cómo o dónde se utiliza.
 #### Herramientas para la sindicación de contenidos
 
 #### Creación de feeds
 
 - **CMS**: sistemas como WordPress y Drupal generan feeds automáticamente.
-- **Generadores de feeds RSS: herramientas como Feedity o RSS.** app.
+- **Generadores de feeds RSS**: herramientas como Feedity o RSS. app.
 #### Lectores de feeds
 
-- **Feedly: uno de los lectores de RSS más populares.**
-- **Inoreader: ofrece opciones avanzadas para gestión de feeds.**
-- **NewsBlur: ideal para organizar y leer contenido desde diferentes** dispositivos.
+- **Feedly**: uno de los lectores de RSS más populares.
+- **Inoreader**: ofrece opciones avanzadas para gestión de feeds.
+- **NewsBlur**: ideal para organizar y leer contenido desde diferentes dispositivos.
 #### Plataformas de distribución
 
-- **IFTTT: automatiza la publicación de contenido RSS en redes** sociales.
-- **Zapier: conecta feeds con otras herramientas para maximizar su** alcance.
+- **IFTTT**: automatiza la publicación de contenido RSS en redes sociales.
+- **Zapier**: conecta feeds con otras herramientas para maximizar su alcance.
 
 #### Aplicaciones prácticas de la sindicación de contenidos
 
-- **Medios de comunicación: mantienen a los lectores informados** sobre noticias recientes.
-- **Blogs y sitios especializados: difunden artículos y publicaciones** entre audiencias interesadas.
+- **Medios de comunicación**: mantienen a los lectores informados sobre noticias recientes.
+- **Blogs y sitios especializados**: difunden artículos y publicaciones entre audiencias interesadas.
 - **E-commerce**: publican automáticamente nuevos productos, ofertas o actualizaciones en su catálogo.
-- **Educación: distribuyen recursos y actualizaciones en plataformas** de aprendizaje.
+- **Educación**: distribuyen recursos y actualizaciones en plataformas de aprendizaje.
 La sindicación de contenidos sigue siendo una herramienta clave para distribuir información de forma eficiente, manteniendo la conexión entre los creadores de contenido y su audiencia de manera automatizada y organizada.
 
 ### 2.8. Estándares web
@@ -567,12 +559,12 @@ Estos estándares son un conjunto de normas y directrices diseñadas para promov
 - **Características:** – Incluyen directrices como las Pautas de Accesibilidad para el Contenido Web (WCAG). – Fomentan el uso de etiquetas semánticas y atributos ARIA para mejorar la experiencia de los usuarios con tecnologías asistivas.
 **Usabilidad**
 
-- **Descripción: los estándares web ayudan a mejorar la experiencia** del usuario al definir prácticas recomendadas para la navegación y la interacción.
+- **Descripción**: los estándares web ayudan a mejorar la experiencia del usuario al definir prácticas recomendadas para la navegación y la interacción.
 - **Características:** – Proporcionan directrices para la estructura y la presentación de la información. – Ayudan a crear interfaces intuitivas y fáciles de usar.
 
 **Seguridad**
 
-- **Descripción: los estándares web incluyen especificaciones para** asegurar que los datos de los usuarios y las aplicaciones estén protegidos contra amenazas.
+- **Descripción**: los estándares web incluyen especificaciones para asegurar que los datos de los usuarios y las aplicaciones estén protegidos contra amenazas.
 - **Características:**
 #### – Definen protocolos seguros como HTTPS.
 
@@ -580,7 +572,7 @@ Estos estándares son un conjunto de normas y directrices diseñadas para promov
 
 #### Desarrollo sostenible
 
-- **Descripción: los estándares web fomentan prácticas de desarrollo** sostenibles y mantenibles.
+- **Descripción**: los estándares web fomentan prácticas de desarrollo sostenibles y mantenibles.
 - **Características:** – Promueven el uso de código limpio y modular. – Fomentan la adopción de tecnologías emergentes que mejoran la eficiencia y el rendimiento.
 #### Principales estándares web
 

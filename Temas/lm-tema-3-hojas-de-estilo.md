@@ -15,31 +15,31 @@ Las hojas de estilo separan el contenido (HTML) de la presentación (CSS), facil
 #### Función de una hoja de estilo
 
 - **Definir la apariencia de los elementos**: permite modificar colores, fuentes, tamaños, márgenes, alineación, bordes, y otros aspectos visuales.
-- **Asegurar consistencia: una única hoja de estilo externa puede** aplicarse a varias páginas, garantizando un diseño uniforme.
+- **Asegurar consistencia**: una única hoja de estilo externa puede aplicarse a varias páginas, garantizando un diseño uniforme.
 - **Adaptarse a dispositivos**: facilita la creación de diseños responsivos que se ajustan a diferentes tamaños de pantalla (ordenadores, móviles, tablets).
 
 #### Tipos de hojas de estilo
 
-- **CSS en línea (Inline CSS): especifica estilos directamente dentro** de las etiquetas HTML mediante el atributo style. **Ejemplo:** <p style="color: red; font-size: 16px;">Texto con estilo en línea</p>
-- **CSS interno (Internal CSS): se escribe dentro de la etiqueta** <style> en la sección <head> del documento HTML. **Ejemplo:** <head> <style> p { color: red; font-size: 16px; } </style> </head>
-- **CSS externo (External CSS): se utiliza un archivo .css separado,** vinculado al documento HTML mediante la etiqueta <link>. **Ejemplo:** <head> <link rel="stylesheet" href="estilos.css"> </head>
+- **CSS en línea (Inline CSS)**: especifica estilos directamente dentro de las etiquetas HTML mediante el atributo style. **Ejemplo:** <p style="color: red; font-size: 16px;">Texto con estilo en línea</p>
+- **CSS interno (Internal CSS)**: se escribe dentro de la etiqueta <style> en la sección <head> del documento HTML. **Ejemplo:** <head> <style> p { color: red; font-size: 16px; } </style> </head>
+- **CSS externo (External CSS)**: se utiliza un archivo .css separado, vinculado al documento HTML mediante la etiqueta <link>. **Ejemplo:** <head> <link rel="stylesheet" href="estilos.css"> </head>
 #### Contenido del archivo estilos.css:
 
 p { color: red; font-size: 16px; }
 
 #### Ventajas de usar hojas de estilo
 
-- **Separación de contenido y diseño: facilita la gestión y edición** de los archivos HTML y CSS.
+- **Separación de contenido y diseño**: facilita la gestión y edición de los archivos HTML y CSS.
 - **Reutilización del código**: una hoja de estilo externa puede aplicarse a varias páginas web.
 
-- **Mantenimiento eficiente: cambiar un estilo en el archivo CSS** afecta a todas las páginas que lo usan.
-- **Diseños responsivos: CSS permite adaptar el diseño a diferentes** dispositivos y resoluciones.
+- **Mantenimiento eficiente**: cambiar un estilo en el archivo CSS afecta a todas las páginas que lo usan.
+- **Diseños responsivos**: CSS permite adaptar el diseño a diferentes dispositivos y resoluciones.
 #### Estructura básica de una hoja de estilo
 
 Una hoja de estilo consta de reglas CSS organizadas en bloques de código. Cada regla incluye:
 
-- **Selector: define a qué elementos HTML se aplicará el estilo.**
-- **Declaración: especifica las propiedades y valores del estilo.**
+- **Selector**: define a qué elementos HTML se aplicará el estilo.
+- **Declaración**: especifica las propiedades y valores del estilo.
 **Ejemplo:**
 
 p { color: blue; /* Cambia el color del texto a azul */ font-size: 18px; /* Ajusta el tamaño de la fuente a 18 píxeles */ }
@@ -58,11 +58,11 @@ selector { propiedad: valor; }
 
 **Componentes**
 
-- **Selector: indica a qué elementos HTML se aplicará el estilo.**
-- **Propiedad: define qué aspecto del elemento se modificará (color,** tamaño, margen, etc.).
-- **Valor: especifica el detalle que se aplicará a la propiedad.**
-- **Llaves ({}): encierra las declaraciones de estilo.**
-- **Punto y coma (;): separa múltiples declaraciones dentro de un** mismo bloque.
+- **Selector**: indica a qué elementos HTML se aplicará el estilo.
+- **Propiedad**: define qué aspecto del elemento se modificará (color, tamaño, margen, etc.).
+- **Valor**: especifica el detalle que se aplicará a la propiedad.
+- **Llaves ({})**: encierra las declaraciones de estilo.
+- **Punto y coma (;)**: separa múltiples declaraciones dentro de un mismo bloque.
 #### Ejemplo básico:
 
 p { color: blue; /* Cambia el color del texto a azul */ font-size: 16px; /* Ajusta el tamaño de la fuente */ text-align: center; /* Centra el texto */ }
@@ -77,17 +77,17 @@ Donde:
 
 #### Selectores básicos
 
-- **Elemento: aplica estilos a todas las etiquetas de ese tipo.** h1 { color: red; }
-- **Clase (.clase): aplica estilos a los elementos con una clase específica.** .destacado { font-weight: bold; }
-- **ID (#id): aplica estilos a un elemento único identificado por un ID.** #principal { background-color: lightgray; }
+- **Elemento**: aplica estilos a todas las etiquetas de ese tipo. h1 { color: red; }
+- **Clase (.clase)**: aplica estilos a los elementos con una clase específica. .destacado { font-weight: bold; }
+- **ID (#id)**: aplica estilos a un elemento único identificado por un ID. #principal { background-color: lightgray; }
 #### Selectores avanzados
 
-- **Grupo de selectores: aplica el mismo estilo a varios elementos.** h1, h2, h3 { color: green; }
-- **Selectores descendientes: aplica estilos a los elementos dentro** de un contenedor. div p { color: purple; }
+- **Grupo de selectores**: aplica el mismo estilo a varios elementos. h1, h2, h3 { color: green; }
+- **Selectores descendientes**: aplica estilos a los elementos dentro de un contenedor. div p { color: purple; }
 - **Selectores de atributos**: aplica estilos a elementos con un atributo específico. input[type="text"] { border: 1px solid black; }
 
-- **Selectores pseudoclase: aplica estilos basados en un estado o** condición. a:hover { text-decoration: underline; }
-- **Selectores pseudoelemento: aplica estilos a una parte específica** de un elemento. p::first-line { font-weight: bold; }
+- **Selectores pseudoclase**: aplica estilos basados en un estado o condición. a:hover { text-decoration: underline; }
+- **Selectores pseudoelemento**: aplica estilos a una parte específica de un elemento. p::first-line { font-weight: bold; }
 #### Declaraciones múltiples
 
 Un bloque CSS puede contener varias declaraciones de propiedad y valor, separadas por punto y coma.
@@ -312,9 +312,9 @@ El diseño responsive utiliza técnicas y herramientas como media queries, **uni
 
 #### Características clave del diseño responsive
 
-- **Adaptabilidad: el contenido y los elementos visuales se ajustan** automáticamente al tamaño del dispositivo.
+- **Adaptabilidad**: el contenido y los elementos visuales se ajustan automáticamente al tamaño del dispositivo.
 - **Un diseño único**: se evita crear versiones separadas para dispositivos móviles y escritorio, simplificando el mantenimiento.
-- **Optimización para dispositivos móviles: el diseño se enfoca en** pantallas más pequeñas primero (Mobile First) y luego escala a dispositivos más grandes.
+- **Optimización para dispositivos móviles**: el diseño se enfoca en pantallas más pequeñas primero (Mobile First) y luego escala a dispositivos más grandes.
 #### Herramientas y técnicas del diseño responsive
 
 #### Media queries
@@ -333,16 +333,16 @@ Las media queries son una característica de CSS que permite aplicar estilos dep
 
 El uso de unidades relativas permite que los tamaños de los elementos se ajusten proporcionalmente.
 
-- **Unidades relativas comunes:** – **em: relativo al tamaño de la fuente del elemento padre.** – **rem: relativo al tamaño de la fuente raíz (html).** – **%: relativo al tamaño del contenedor padre.** – **vh y vw: relativo al 1% del ancho o altura de la ventana gráfica.** **Ejemplo:** body { font-size: 1rem; /* Relativo al tamaño de la fuente base */ } div { width: 50%; /* Ocupa el 50% del ancho del contenedor padre */ height: 50vh; /* Ocupa el 50% de la altura de la ventana gráfica */ }
+- **Unidades relativas comunes:** – **em**: relativo al tamaño de la fuente del elemento padre. – **rem**: relativo al tamaño de la fuente raíz (html). – **%**: relativo al tamaño del contenedor padre. – **vh y vw**: relativo al 1% del ancho o altura de la ventana gráfica. **Ejemplo:** body { font-size: 1rem; /* Relativo al tamaño de la fuente base */ } div { width: 50%; /* Ocupa el 50% del ancho del contenedor padre */ height: 50vh; /* Ocupa el 50% de la altura de la ventana gráfica */ }
 
 #### Layouts flexibles (Flexbox y Grid)
 
 - **Flexbox**: sistema de diseño unidimensional que distribuye elementos de manera flexible. **Ejemplo:** .container { display: flex; flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas */ justify-content: center; /* Centra los elementos horizontalmente */ gap: 10px; /* Espacio entre elementos */ }
-- **Grid: sistema de diseño bidimensional que organiza elementos en** filas y columnas. **Ejemplo:** .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el número de columnas automáticamente */ gap: 15px; /* Espacio entre columnas y filas */ }
+- **Grid**: sistema de diseño bidimensional que organiza elementos en filas y columnas. **Ejemplo:** .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el número de columnas automáticamente */ gap: 15px; /* Espacio entre columnas y filas */ }
 #### Imágenes y multimedia responsivos
 
 - **Imágenes fluidas:** img { max-width: 100%; /* Ajusta el ancho al contenedor */ height: auto; /* Mantiene la proporción */ }
-- **Videos responsivos: se utilizan contenedores con proporción fija.** .video-container { position: relative; padding-top: 56.25%; /* Relación 16:9 */ height: 0; } .video-container iframe { position: absolute;
+- **Videos responsivos**: se utilizan contenedores con proporción fija. .video-container { position: relative; padding-top: 56.25%; /* Relación 16:9 */ height: 0; } .video-container iframe { position: absolute;
 
 top: 0; left: 0; width: 100%; height: 100%; }
 
@@ -364,16 +364,16 @@ Los frameworks CSS incluyen componentes y clases predefinidas que facilitan la c
 
 **Ejemplos:**
 
-- **Bootstrap: sistema de rejillas y utilidades para diseño móvil y** responsive.
-- **Bulma CSS: framework que destaca por su sencillez.**
-- **Tailwind CSS: framework de utilidades altamente personalizable.**
-- **Foundation: herramienta avanzada para diseño adaptativo.**
+- **Bootstrap**: sistema de rejillas y utilidades para diseño móvil y responsive.
+- **Bulma CSS**: framework que destaca por su sencillez.
+- **Tailwind CSS**: framework de utilidades altamente personalizable.
+- **Foundation**: herramienta avanzada para diseño adaptativo.
 
 #### Ventajas del diseño responsive
 
-- **Mejor experiencia del usuario: contenido accesible y legible en** cualquier dispositivo.
-- **Optimización para SEO: google favorece los sitios responsivos en** los resultados de búsqueda.
-- **Mantenimiento más fácil: un único diseño se adapta a múltiples** dispositivos, reduciendo el tiempo de desarrollo.
+- **Mejor experiencia del usuario**: contenido accesible y legible en cualquier dispositivo.
+- **Optimización para SEO**: google favorece los sitios responsivos en los resultados de búsqueda.
+- **Mantenimiento más fácil**: un único diseño se adapta a múltiples dispositivos, reduciendo el tiempo de desarrollo.
 El diseño responsive es una práctica esencial en el desarrollo web moderno. Permite que los sitios se adapten automáticamente a diferentes dispositivos, mejorando la experiencia del usuario y maximizando el alcance del contenido. Con herramientas como media queries, unidades relativas y frameworks, los desarrolladores pueden crear sitios web visualmente atractivos y funcionales en cualquier entorno.
 
 ### 3.5. Layouts avanzados en CSS
@@ -437,8 +437,8 @@ Combinar media queries con Flexbox o Grid permite crear diseños adaptables a di
 
 #### Ventajas de los layouts avanzados
 
-- **Flexibilidad: permiten diseños adaptativos y escalables.**
-- **Organización: mejoran la estructura y la disposición del contenido.**
+- **Flexibilidad**: permiten diseños adaptativos y escalables.
+- **Organización**: mejoran la estructura y la disposición del contenido.
 - **Control preciso**: facilitan el control de alineación, espacio y tamaño de los elementos. **Conclusión** Los layouts avanzados en CSS, como Flexbox y Grid, son herramientas poderosas para crear diseños modernos y responsivos. Su dominio permite a los desarrolladores estructurar el contenido de manera eficiente y optimizar la experiencia del usuario en cualquier dispositivo.
 
 ### 3.6. Tipografía en CSS
@@ -455,18 +455,18 @@ Define la fuente utilizada para el texto. Se pueden especificar varias fuentes c
 
 p { font-family: Arial, Helvetica, sans-serif; }
 
-- **Arial: fuente principal.**
-- **Helvetica: fuente alternativa.**
-- **sans-serif: categoría genérica para fuentes sin remates.**
+- **Arial**: fuente principal.
+- **Helvetica**: fuente alternativa.
+- **sans-serif**: categoría genérica para fuentes sin remates.
 #### Propiedad font-size
 
 Controla el tamaño de la fuente.
 
 #### Unidades comunes:
 
-- **Pixeles (px): tamaño absoluto.**
-- **Ems (em) y rems (rem): tamaño relativo al elemento padre (em)** o raíz (rem).
-- **Porcentajes (%): relativo al tamaño del texto del elemento padre.**
+- **Pixeles (px)**: tamaño absoluto.
+- **Ems (em) y rems (rem)**: tamaño relativo al elemento padre (em) o raíz (rem).
+- **Porcentajes (%)**: relativo al tamaño del texto del elemento padre.
 **Ejemplo:**
 
 h1 { font-size: 2em; /* Dos veces el tamaño base */ }
@@ -477,9 +477,9 @@ Controla el grosor del texto.
 
 #### Valores comunes:
 
-- **normal: grosor estándar.**
-- **bold: texto en negrita.**
-- **100, 200, ..., 900: grosor numérico (100 más delgado, 900 más** grueso).
+- **normal**: grosor estándar.
+- **bold**: texto en negrita.
+- **100, 200, ..., 900**: grosor numérico (100 más delgado, 900 más grueso).
 **Ejemplo:**
 
 p { font-weight: bold; }
@@ -570,11 +570,11 @@ h1 { font-family: 'MiFuentePersonalizada', sans-serif; }
 
 #### Buenas prácticas en tipografía
 
-- **Legibilidad: usa tamaños y colores que permitan una lectura** cómoda.
-- **Consistencia: limita la cantidad de fuentes utilizadas (2 o 3 como** máximo).
+- **Legibilidad**: usa tamaños y colores que permitan una lectura cómoda.
+- **Consistencia**: limita la cantidad de fuentes utilizadas (2 o 3 como máximo).
 - **Contraste**: asegúrate de que el color del texto contraste adecuadamente con el fondo.
 - **Responsive**: adapta los tamaños de las fuentes utilizando unidades relativas (em, rem, %).
-- **Accesibilidad: usa la propiedad line-height y asegúrate de que los** textos sean comprensibles.
+- **Accesibilidad**: usa la propiedad line-height y asegúrate de que los textos sean comprensibles.
 
 #### Ejemplo práctico de tipografía en CSS
 
@@ -598,9 +598,9 @@ La tipografía en CSS es crucial para crear una experiencia de usuario atractiva
 
 - **Ligero y modular**: solo se incluyen las funcionalidades necesarias, permitiendo personalizar los estilos.
 - **Sistema de diseño responsive**: utiliza un sistema de columnas basado en flexbox, lo que facilita la creación de layouts adaptativos.
-- **Basado en clases: todas las funcionalidades se implementan a** través de clases predefinidas, simplificando la escritura de código.
+- **Basado en clases**: todas las funcionalidades se implementan a través de clases predefinidas, simplificando la escritura de código.
 - **Sin dependencias**: no requiere JavaScript ni otros frameworks externos para funcionar.
-- **Estética moderna: viene con estilos atractivos y listos para usar,** ideales para proyectos rápidos.
+- **Estética moderna**: viene con estilos atractivos y listos para usar, ideales para proyectos rápidos.
 #### Instalación de BulmaCSS
 
 #### Usando CDN
@@ -681,9 +681,9 @@ Bulma utiliza breakpoints predefinidos para crear diseños responsivos. Puedes a
 
 **Breakpoints:**
 
-- **Mobile: menos de 768px.**
-- **Tablet: entre 768px y 1023px.**
-- **Desktop: más de 1024px.**
+- **Mobile**: menos de 768px.
+- **Tablet**: entre 768px y 1023px.
+- **Desktop**: más de 1024px.
 **Ejemplo:**
 
 <div class="columns"> <div class="column is-half-desktop is-full-mobile">Columna responsiva</div> </div>
@@ -693,11 +693,11 @@ Bulma utiliza breakpoints predefinidos para crear diseños responsivos. Puedes a
 - **Facilidad de uso**: las clases predefinidas permiten desarrollar rápidamente sin necesidad de escribir CSS personalizado.
 - **Completamente responsive**: incluye soporte para adaptarse automáticamente a cualquier dispositivo.
 - **Estilos modernos**: el diseño visual de Bulma es atractivo y adecuado para proyectos actuales.
-- **Comunidad activa: cuenta con documentación extensa y soporte** de la comunidad.
+- **Comunidad activa**: cuenta con documentación extensa y soporte de la comunidad.
 #### Desventajas de BulmaCSS
 
 - **Dependencia de clases**: todo el diseño depende del uso correcto de las clases, lo que puede limitar la flexibilidad en proyectos complejos.
-- **Sobrecarga de estilos: en proyectos pequeños, puede incluir más** estilos de los necesarios.
+- **Sobrecarga de estilos**: en proyectos pequeños, puede incluir más estilos de los necesarios.
 #### Ejemplo práctico de una página con Bulma:
 
 <!DOCTYPE html> <html lang="es"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="[https://cdn.jsdeli-](https://cdn.jsdeli-) vr.net/npm/bulma@0.9.4/css/bulma.min.css"> <title>Página con Bulma</title> </head> <body> <section class="hero is-primary"> <div class="hero-body"> <p class="title">Bienvenido a Bulma</p> <p class="subtitle">Framework CSS moderno y flexible</p> </div> </section>

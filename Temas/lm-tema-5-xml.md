@@ -16,20 +16,20 @@ XML es un pilar esencial en el intercambio de datos en el mundo digital, combina
 
 #### Características principales de XML
 
-- **Formato basado en texto: XML utiliza un formato de texto legible** que facilita su comprensión y edición manual.
+- **Formato basado en texto**: XML utiliza un formato de texto legible que facilita su comprensión y edición manual.
 - **Estructura jerárquica**: los datos se organizan en elementos anidados, formando una estructura tipo árbol.
-- **Extensibilidad: los usuarios pueden definir sus propias etiquetas** según las necesidades de su aplicación.
+- **Extensibilidad**: los usuarios pueden definir sus propias etiquetas según las necesidades de su aplicación.
 - **Separación de datos y presentación**: XML se centra exclusivamente en los datos, dejando su presentación a otros lenguajes como HTML o CSS.
-- **Portabilidad: es independiente de la plataforma y el software, lo** que permite su uso en diferentes entornos.
+- **Portabilidad**: es independiente de la plataforma y el software, lo que permite su uso en diferentes entornos.
 #### Componentes básicos de un documento XML
 
 - **Declaración XML**: indica la versión de XML y la codificación utilizada. Es opcional pero recomendada. **Ejemplo:** <?xml version="1.0" encoding="UTF-8"?>
 - **Elemento raíz**: cada documento XML debe tener un único elemento principal que contenga todos los demás elementos. **Ejemplo:** <libro> <!-- Otros elementos aquí --> </libro>
 - **Elementos**: representan los datos y están delimitados por etiquetas de apertura y cierre. **Ejemplo:** <titulo>Lenguajes de Marcas</titulo>
 
-- **Atributos: proporcionan información adicional sobre un elemento** en formato nombre="valor". **Ejemplo:** <libro id="1" categoria="educacion"> <titulo>Lenguajes de Marcas</titulo> </libro>
-- **Comentarios: ayudan a documentar el código XML sin afectar su** funcionalidad. **Ejemplo:** <!-- Este es un comentario en XML -->
-- **Datos de texto: son los valores que se almacenan dentro de un** elemento. **Ejemplo:** <autor>Pablo García</autor>
+- **Atributos**: proporcionan información adicional sobre un elemento en formato nombre="valor". **Ejemplo:** <libro id="1" categoria="educacion"> <titulo>Lenguajes de Marcas</titulo> </libro>
+- **Comentarios**: ayudan a documentar el código XML sin afectar su funcionalidad. **Ejemplo:** <!-- Este es un comentario en XML -->
+- **Datos de texto**: son los valores que se almacenan dentro de un elemento. **Ejemplo:** <autor>Pablo García</autor>
 #### Ejemplo básico de un documento XML
 
 <?xml version="1.0" encoding="UTF-8"?> <biblioteca> <libro id="1"> <titulo>Lenguajes de Marcas</titulo> <autor>Pablo García</autor> <año>2025</año> </libro> <libro id="2"> <titulo>Diseño Web Responsivo</titulo> <autor>Laura Sánchez</autor> <año>2023</año> </libro> </biblioteca>
@@ -37,20 +37,20 @@ XML es un pilar esencial en el intercambio de datos en el mundo digital, combina
 #### Ventajas de XML
 
 - **Interoperabilidad**: es compatible con diferentes sistemas y tecnologías, facilitando el intercambio de datos.
-- **Escalabilidad: su estructura jerárquica permite manejar datos** simples o complejos.
+- **Escalabilidad**: su estructura jerárquica permite manejar datos simples o complejos.
 
-- **Legibilidad: los documentos XML son fáciles de interpretar por** humanos y máquinas.
-- **Ampliamente soportado: es compatible con una amplia gama de** lenguajes de programación y herramientas.
+- **Legibilidad**: los documentos XML son fáciles de interpretar por humanos y máquinas.
+- **Ampliamente soportado**: es compatible con una amplia gama de lenguajes de programación y herramientas.
 #### Limitaciones de XML
 
-- **Verbosidad: XML puede generar archivos grandes debido al uso** extensivo de etiquetas.
+- **Verbosidad**: XML puede generar archivos grandes debido al uso extensivo de etiquetas.
 - **Rendimiento**: procesar archivos XML puede ser más lento en comparación con formatos más compactos como JSON.
-- **Curva de aprendizaje: aunque sencillo, puede ser complejo para** principiantes debido a sus reglas estrictas.
+- **Curva de aprendizaje**: aunque sencillo, puede ser complejo para principiantes debido a sus reglas estrictas.
 #### Usos comunes de XML
 
-- **Intercambio de datos: XML es ampliamente utilizado en servicios** web (SOAP) y APIs para transferir información entre aplicaciones.
-- **Almacenamiento de configuración: muchos programas utilizan** XML para guardar configuraciones y preferencias.
-- **Bases de datos: XML puede almacenar datos estructurados en** bases de datos orientadas a documentos.
+- **Intercambio de datos**: XML es ampliamente utilizado en servicios web (SOAP) y APIs para transferir información entre aplicaciones.
+- **Almacenamiento de configuración**: muchos programas utilizan XML para guardar configuraciones y preferencias.
+- **Bases de datos**: XML puede almacenar datos estructurados en bases de datos orientadas a documentos.
 - **Representación de documentos**: es útil para representar estructuras complejas como libros electrónicos o manuales técnicos.
 XML es un estándar versátil y ampliamente adoptado para estructurar y transportar datos. Su comprensión es esencial en el desarrollo de aplicaciones web, sistemas de intercambio de información y gestión de datos complejos.
 
@@ -131,11 +131,11 @@ Algunas bases de datos, como MongoDB, permiten almacenar datos estructurados en 
 
 #### Usos comunes de la asociación con XML
 
-- **Generación de contenido dinámico: transformar XML en HTML** para mostrar información en sitios web.
+- **Generación de contenido dinámico**: transformar XML en HTML para mostrar información en sitios web.
 
-- **Procesamiento de datos: usar lenguajes de programación para** leer, modificar o analizar datos XML.
-- **Interoperabilidad: integración de XML con servicios web y APIs** para intercambiar información entre aplicaciones.
-- **Presentación personalizada: asociar XML con CSS o XSLT para** generar vistas personalizadas del contenido.
+- **Procesamiento de datos**: usar lenguajes de programación para leer, modificar o analizar datos XML.
+- **Interoperabilidad**: integración de XML con servicios web y APIs para intercambiar información entre aplicaciones.
+- **Presentación personalizada**: asociar XML con CSS o XSLT para generar vistas personalizadas del contenido.
 La asociación de documentos XML con hojas de estilo, lenguajes de programación y bases de datos amplía su funcionalidad y lo convierte en una herramienta versátil para estructurar, presentar y procesar datos. Gracias a estas asociaciones, XML puede integrarse fácilmente en aplicaciones web, sistemas de gestión y plataformas de intercambio de información.
 
 ### 5.3. Creación de descripciones
@@ -231,14 +231,14 @@ de duplicar información.
 
 #### – XMLSpy
 
-- **Herramientas de validación: permiten verificar la estructura y el** contenido del documento XML.
+- **Herramientas de validación**: permiten verificar la estructura y el contenido del documento XML.
 #### – W3C XML Validator
 
 #### Aplicaciones de las descripciones en XML
 
-- **Catálogos de productos: representar información sobre artículos** en sistemas de comercio electrónico.
-- **Gestión de datos: almacenar información de empleados, clientes** o inventarios.
-- **Intercambio de información: transferir datos entre sistemas,** como en servicios web.
+- **Catálogos de productos**: representar información sobre artículos en sistemas de comercio electrónico.
+- **Gestión de datos**: almacenar información de empleados, clientes o inventarios.
+- **Intercambio de información**: transferir datos entre sistemas, como en servicios web.
 - **Documentación**: crear estructuras organizadas para libros, manuales o reportes.
 La creación de descripciones en XML es una habilidad clave para estructurar y representar datos de manera clara y eficiente. Mediante el uso de etiquetas, atributos y una jerarquía bien definida, los documentos XML pueden adaptarse a una amplia variedad de aplicaciones, desde el almacenamiento de información hasta su presentación o intercambio en sistemas complejos.
 
@@ -267,7 +267,7 @@ La validación es crucial en sistemas donde se intercambian datos estructurados,
 
 <?xml version="1.0" encoding="UTF-8"?> <libro> <titulo>Lenguajes de Marcas</titulo> <autor>Pablo García</autor> </libro>
 
-- **Documento válido: además de estar bien formado, cumple con** las reglas definidas en un DTD o XSD.
+- **Documento válido**: además de estar bien formado, cumple con las reglas definidas en un DTD o XSD.
 
 #### Métodos de validación
 
@@ -306,17 +306,17 @@ El XSD es un esquema más avanzado que permite definir tipos de datos, restricci
 
 #### – FreeFormatter
 
-- **Librerías en lenguajes de programación:** – **Java: JAXP, JAXB** – **Python: xmlschema, lxml**
+- **Librerías en lenguajes de programación:** – **Java**: JAXP, JAXB – **Python**: xmlschema, lxml
 
 #### – C#: System.Xml.Schema
 
 #### Ventajas de la validación XML
 
-- **Integridad de los datos: asegura que los datos cumplen con las** reglas definidas.
-- **Interoperabilidad: facilita el intercambio de datos entre sistemas** al garantizar formatos estandarizados.
+- **Integridad de los datos**: asegura que los datos cumplen con las reglas definidas.
+- **Interoperabilidad**: facilita el intercambio de datos entre sistemas al garantizar formatos estandarizados.
 
 - **Facilidad de depuración**: detecta errores estructurales y de contenido en etapas tempranas.
-- **Escalabilidad: permite manejar estructuras de datos complejas y** relaciones jerárquicas.
+- **Escalabilidad**: permite manejar estructuras de datos complejas y relaciones jerárquicas.
 #### Ejemplo práctico de validación
 
 #### Esquema XSD (catalogo.xsd):
@@ -418,5 +418,5 @@ tree.write("biblioteca_adaptada.xml", encoding="utf-8")
 - **Interoperabilidad**: facilita la integración entre sistemas que utilizan formatos de datos diferentes.
 - **Accesibilidad**: los datos pueden transformarse para ser visualizados en navegadores, aplicaciones o informes.
 - **Escalabilidad**: permite adaptar documentos XML a nuevos requerimientos sin cambiar su estructura básica.
-- **Versatilidad: soporte para múltiples formatos como JSON, HTML,** CSV, entre otros.
+- **Versatilidad**: soporte para múltiples formatos como JSON, HTML, CSV, entre otros.
 La conversión y adaptación de documentos XML es una práctica esencial en el desarrollo y mantenimiento de sistemas modernos. Con herramientas como XSLT y lenguajes de programación, es posible transformar y ajustar documentos XML para satisfacer necesidades específicas, optimizando así su utilidad e integración en entornos complejos.

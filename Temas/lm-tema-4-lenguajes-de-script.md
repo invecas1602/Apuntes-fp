@@ -8,24 +8,24 @@ Los lenguajes de script son comúnmente utilizados para tareas como la gestión 
 
 #### Características principales de los lenguajes de script
 
-- **Interpretados: los lenguajes de script son interpretados en lugar** de compilados. Esto significa que el código se ejecuta directamente línea por línea por un intérprete, lo que facilita la depuración y hace que el ciclo de desarrollo sea más rápido.
-- **Simplicidad y facilidad de uso: están diseñados para ser fáciles** de aprender y utilizar, con una sintaxis simplificada en comparación con lenguajes compilados como C o Java, lo que los hace accesibles tanto para desarrolladores experimentados como para principiantes.
+- **Interpretados**: los lenguajes de script son interpretados en lugar de compilados. Esto significa que el código se ejecuta directamente línea por línea por un intérprete, lo que facilita la depuración y hace que el ciclo de desarrollo sea más rápido.
+- **Simplicidad y facilidad de uso**: están diseñados para ser fáciles de aprender y utilizar, con una sintaxis simplificada en comparación con lenguajes compilados como C o Java, lo que los hace accesibles tanto para desarrolladores experimentados como para principiantes.
 - **Tipado dinámico**: en muchos lenguajes de script, el tipo de las variables se determina en tiempo de ejecución, lo que proporciona flexibilidad y reduce la necesidad de declaraciones de tipos explícitas.
-- **Portabilidad: la mayoría de los lenguajes de script son portátiles** y pueden ejecutarse en diferentes sistemas operativos sin necesidad de modificaciones en el código fuente.
-- **Bibliotecas y módulos extensos: los lenguajes de script suelen** tener un amplio conjunto de bibliotecas y módulos disponibles, lo que permite a los desarrolladores reutilizar código existente y acelerar el desarrollo de aplicaciones.
-- **Integración y automatización: se utilizan ampliamente para la** integración de sistemas y la automatización de tareas repetitivas, como la gestión de archivos, la configuración de sistemas y la ejecución de tareas programadas.
-- **Usos comunes: entre los usos más comunes de los lenguajes de**
+- **Portabilidad**: la mayoría de los lenguajes de script son portátiles y pueden ejecutarse en diferentes sistemas operativos sin necesidad de modificaciones en el código fuente.
+- **Bibliotecas y módulos extensos**: los lenguajes de script suelen tener un amplio conjunto de bibliotecas y módulos disponibles, lo que permite a los desarrolladores reutilizar código existente y acelerar el desarrollo de aplicaciones.
+- **Integración y automatización**: se utilizan ampliamente para la integración de sistemas y la automatización de tareas repetitivas, como la gestión de archivos, la configuración de sistemas y la ejecución de tareas programadas.
+- **Usos comunes**: entre los usos más comunes de los lenguajes de
 
 script se encuentran la creación de scripts de shell (por ejemplo, Bash), la manipulación de datos (Python, Perl), el desarrollo web (JavaScript, PHP), y la automatización de tareas administrativas (PowerShell).
 
 #### Ejemplos de lenguajes de script populares
 
-- **JavaScript: utilizado principalmente para el desarrollo web del** lado del cliente, pero también del lado del servidor con Node.js.
+- **JavaScript**: utilizado principalmente para el desarrollo web del lado del cliente, pero también del lado del servidor con Node.js.
 - **Python**: conocido por su sintaxis clara y su amplia aplicación en ciencia de datos, desarrollo web, automatización y scripting general.
-- **Ruby: utilizado en desarrollo web (Ruby on Rails) y scripting general.**
+- **Ruby**: utilizado en desarrollo web (Ruby on Rails) y scripting general.
 - **Perl**: famoso por su capacidad de procesamiento de texto y administración de sistemas.
-- **PHP: se emplea principalmente para el desarrollo web del lado del** servidor.
-- **Bash: utilizado para la creación de scripts de shell en sistemas** Unix y Linux.
+- **PHP**: se emplea principalmente para el desarrollo web del lado del servidor.
+- **Bash**: utilizado para la creación de scripts de shell en sistemas Unix y Linux.
 Los lenguajes de script son herramientas esenciales en el arsenal de cualquier desarrollador, proporcionando una forma rápida y eficiente de automatizar tareas y desarrollar aplicaciones. Su simplicidad, flexibilidad y extensibilidad los hacen ideales para una amplia variedad de aplicaciones en el mundo de la tecnología.
 
 ### 4.1. JavaScript
@@ -38,11 +38,11 @@ Originalmente desarrollado por Netscape como un medio para agregar comportamient
 
 **Características**
 
-- **Interactividad del lado del cliente: JavaScript se ejecuta en el** navegador del usuario, lo que permite crear experiencias interactivas y dinámicas sin necesidad de recargar la página completa. Esto incluye la validación de formularios, la creación de efectos visuales y la actualización de contenido en tiempo real.
-- **Orientado a objetos y basado en prototipos: a diferencia de** otros lenguajes orientados a objetos que utilizan clases, JavaScript usa prototipos para la herencia. Esto permite una gran flexibilidad en la creación y manipulación de objetos.
+- **Interactividad del lado del cliente**: JavaScript se ejecuta en el navegador del usuario, lo que permite crear experiencias interactivas y dinámicas sin necesidad de recargar la página completa. Esto incluye la validación de formularios, la creación de efectos visuales y la actualización de contenido en tiempo real.
+- **Orientado a objetos y basado en prototipos**: a diferencia de otros lenguajes orientados a objetos que utilizan clases, JavaScript usa prototipos para la herencia. Esto permite una gran flexibilidad en la creación y manipulación de objetos.
 - **Lenguaje interpretado**: es un lenguaje interpretado, lo que implica que el código se ejecuta de forma secuencial en lugar de ser compilado previamente. Esto facilita la depuración y acelera el proceso de desarrollo.
-- **Versatilidad y portabilidad: JavaScript puede ejecutarse en** cualquier dispositivo que tenga un navegador web, lo que lo hace extremadamente portátil.
-- **Eventos y manipulación del DOM: JavaScript es fundamental para** la manipulación del Document Object Model (DOM), lo que permite a los desarrolladores cambiar dinámicamente la estructura, el contenido y el estilo de las páginas web en respuesta a eventos del usuario, como clics, movimientos del ratón y entradas de teclado.
+- **Versatilidad y portabilidad**: JavaScript puede ejecutarse en cualquier dispositivo que tenga un navegador web, lo que lo hace extremadamente portátil.
+- **Eventos y manipulación del DOM**: JavaScript es fundamental para la manipulación del Document Object Model (DOM), lo que permite a los desarrolladores cambiar dinámicamente la estructura, el contenido y el estilo de las páginas web en respuesta a eventos del usuario, como clics, movimientos del ratón y entradas de teclado.
 
 - **Asincronía**: JavaScript soporta operaciones asincrónicas mediante callbacks, promesas y la sintaxis async/await. Esto es esencial para realizar tareas como la carga de datos desde un servidor sin bloquear la ejecución del código.
 - **Amplio ecosistema y bibliotecas**: JavaScript cuenta con una vasta cantidad de bibliotecas y frameworks que facilitan el desarrollo de aplicaciones complejas. Algunos ejemplos populares son React, Angular y Vue.js, empleados para el desarrollo front-end, y Express.js para el desarrollo back-end con Node.js.
@@ -65,22 +65,22 @@ Las variables declaradas con var tienen un alcance de función o global. Si se d
 - **Tipos de datos**: incluyen primitivos como number, string, boolean, null, undefined, y symbol. let numero = 10; let texto = "Hola"; let esVerdad = true; let valorNulo = null; let valorIndefinido;
 - **Operadores aritméticos: +, -, *, /, %** let suma = 5 + 3; let resta = 5 - 3; let multiplicacion = 5 * 3; let division = 5 / 3; let modulo = 5 % 3;
 - **Operadores de asignación: =, +=, -=, *=, /=, %=** let x = 10; x += 5; // x ahora es 15
-- **Operadores de comparación: ==, ===, !=, !==, >, <, >=, <=** let esIgual = (5 == '5'); // true let esEstrictamenteIgual = (5 === '5'); // false
+- **Operadores de comparación**: ==, ===, !=, !==, >, <, >=, <= let esIgual = (5 == '5'); // true let esEstrictamenteIgual = (5 === '5'); // false
 
 El operador ===, conocido como "igualdad estricta" o "triple igual", es un operador de comparación en JavaScript que verifica tanto el valor como el tipo de los operandos. A diferencia del operador ==, que realiza una conversión de tipo antes de comparar, === compara los operandos sin realizar ningún tipo de conversión, lo que lo hace más estricto y predictivo.
 
 El uso de este operador en JavaScript es esencial para realizar comparaciones de igualdad estricta que tengan en cuenta tanto el valor como el tipo de los operandos. Su uso es una buena práctica que ayuda a evitar errores y hace que el código sea más seguro y fácil de mantener.
 
-- **Operadores lógicos: &&, ||, !** let y = true && false; // false let o = true || false; // true let no = !true; // false
-- **Estructuras de control condicionales: if, else if, else, switch** if (edad > 18) { console.log("Es mayor de edad"); } else { console.log("Es menor de edad"); } switch (dia) { case 1: console.log("Lunes"); break; case 2: console.log("Martes"); break; default: console.log("Otro día"); }
+- **Operadores lógicos**: &&, ||, ! let y = true && false; // false let o = true || false; // true let no = !true; // false
+- **Estructuras de control condicionales**: if, else if, else, switch if (edad > 18) { console.log("Es mayor de edad"); } else { console.log("Es menor de edad"); } switch (dia) { case 1: console.log("Lunes"); break; case 2: console.log("Martes"); break; default: console.log("Otro día"); }
 
-- **Estructuras de control-bucles: for, while, do...while** for (let i = 0; i < 5; i++) { console.log(i); } let j = 0; while (j < 5) { console.log(j); j++; } let k = 0; do { console.log(k); k++; } while (k < 5);
-- **Funciones: define bloques de código reutilizables.** function saludar(nombre) { return "Hola, " + nombre; } let saludo = saludar("Pedro"); console.log(saludo);
-- **Funciones anónimas y arrow functions: sintaxis compacta para** funciones. let suma = function(a, b) { return a + b; }; let sumaArrow = (a, b) => a + b;
-- **Objetos: colecciones de pares clave-valor.** let persona = { nombre: "Juan", edad: 30, saludar: function() { return "Hola, soy " + this.nombre; } }; console.log(persona.saludar());
-- **Arrays: listas ordenadas de elementos.** let numeros = [1, 2, 3, 4, 5]; console.log(numeros[0]); // 1
+- **Estructuras de control-bucles**: for, while, do...while for (let i = 0; i < 5; i++) { console.log(i); } let j = 0; while (j < 5) { console.log(j); j++; } let k = 0; do { console.log(k); k++; } while (k < 5);
+- **Funciones**: define bloques de código reutilizables. function saludar(nombre) { return "Hola, " + nombre; } let saludo = saludar("Pedro"); console.log(saludo);
+- **Funciones anónimas y arrow functions**: sintaxis compacta para funciones. let suma = function(a, b) { return a + b; }; let sumaArrow = (a, b) => a + b;
+- **Objetos**: colecciones de pares clave-valor. let persona = { nombre: "Juan", edad: 30, saludar: function() { return "Hola, soy " + this.nombre; } }; console.log(persona.saludar());
+- **Arrays**: listas ordenadas de elementos. let numeros = [1, 2, 3, 4, 5]; console.log(numeros[0]); // 1
 
-- **Excepciones: las excepciones son un mecanismo en JavaScript** para manejar errores y condiciones excepcionales en el flujo de un programa. Permiten que el programa reaccione a situaciones inesperadas de manera controlada, evitando que falle de forma abrupta. El manejo de excepciones en JavaScript se realiza mediante las estructuras try, catch, finally y throw. La estructura básica para el manejo de excepciones en JavaScript es try...catch. En el siguiente ejemplo se intenta ejecutar un bloque de código y, si se produce una excepción, se captura y maneja en el bloque catch. try { // Código que puede lanzar una excepción let resultado = dividir(10, 0); console.log(resultado); } catch (error) { // Manejo de la excepción console.error("Se produjo un error:", error.message); } finally { // Código que se ejecuta siempre, ocurra o no una excepción console.log("Operación de división completada."); } function dividir(a, b) { if (b === 0) { throw new Error("No se puede dividir por cero."); } return a / b; }
+- **Excepciones**: las excepciones son un mecanismo en JavaScript para manejar errores y condiciones excepcionales en el flujo de un programa. Permiten que el programa reaccione a situaciones inesperadas de manera controlada, evitando que falle de forma abrupta. El manejo de excepciones en JavaScript se realiza mediante las estructuras try, catch, finally y throw. La estructura básica para el manejo de excepciones en JavaScript es try...catch. En el siguiente ejemplo se intenta ejecutar un bloque de código y, si se produce una excepción, se captura y maneja en el bloque catch. try { // Código que puede lanzar una excepción let resultado = dividir(10, 0); console.log(resultado); } catch (error) { // Manejo de la excepción console.error("Se produjo un error:", error.message); } finally { // Código que se ejecuta siempre, ocurra o no una excepción console.log("Operación de división completada."); } function dividir(a, b) { if (b === 0) { throw new Error("No se puede dividir por cero."); } return a / b; }
 Pueden lanzarse excepciones propias utilizando la palabra clave "throw". Esto es útil para validar condiciones específicas y manejar errores personalizados.
 
 function validarEdad(edad) { if (edad < 0) { throw new Error("La edad no puede ser negativa."); } return true; }
@@ -110,7 +110,7 @@ La POO se centra en el diseño y organización del software en torno a estos obj
 #### Conceptos Clave de la POO
 
 - **Clase**: plantilla o modelo que define las propiedades y comportamientos (métodos) comunes de un conjunto de objetos.
-- **Objeto: instancia de una clase. Un objeto es una entidad que tiene** estado (atributos) y comportamiento (métodos).
+- **Objeto**: instancia de una clase. Un objeto es una entidad que tiene estado (atributos) y comportamiento (métodos).
 - **Encapsulación**: principio que consiste en ocultar los detalles internos de un objeto y exponer solo lo necesario a través de una interfaz pública.
 - **Herencia**: mecanismo por el cual una clase puede heredar propiedades y métodos de otra.
 - **Polimorfismo**: capacidad de los objetos de diferentes clases relacionadas por herencia de responder a la misma interfaz de métodos de diferentes maneras.
@@ -194,11 +194,11 @@ Over the river, Shady Grove Aeolian Dorian Charlie
 
 #### Características principales del DOM
 
-- **Estructura en árbol: el DOM representa el documento como una** estructura jerárquica en forma de árbol, donde cada nodo puede tener hijos. El nodo raíz es el documento mismo y de él cuelgan todos los demás elementos y contenidos.
-- **Nodos: son las unidades fundamentales del DOM. Existen varios** tipos de nodos: – **Elementos: representan las etiquetas HTML (por ejemplo,** <div>, <p>, <a>). – **Atributos: representan los atributos de los elementos (por** ejemplo, class, id). – **Texto: representan el contenido textual dentro de los elementos.** – **Comentarios: representan los comentarios en el código HTML.**
+- **Estructura en árbol**: el DOM representa el documento como una estructura jerárquica en forma de árbol, donde cada nodo puede tener hijos. El nodo raíz es el documento mismo y de él cuelgan todos los demás elementos y contenidos.
+- **Nodos**: son las unidades fundamentales del DOM. Existen varios tipos de nodos: – **Elementos**: representan las etiquetas HTML (por ejemplo, <div>, <p>, <a>). – **Atributos**: representan los atributos de los elementos (por ejemplo, class, id). – **Texto**: representan el contenido textual dentro de los elementos. – **Comentarios**: representan los comentarios en el código HTML.
 - **Accesibilidad y manipulación**: a través de lenguajes de programación como JavaScript, los desarrolladores pueden acceder y manipular cualquier parte del documento. Pueden agregar, modificar o eliminar nodos, cambiar atributos y estilos, y responder a eventos del usuario.
-- **Eventos: el DOM permite la creación y gestión de eventos. Los** desarrolladores pueden definir comportamientos específicos en respuesta a acciones del usuario, como clics, desplazamientos o cambios de formulario, entre otros.
-- **Compatibilidad con múltiples lenguajes: aunque comúnmente** se asocia con JavaScript, el DOM es un estándar independiente del lenguaje y puede ser manipulado por cualquier lenguaje de programación que pueda interactuar con el navegador.
+- **Eventos**: el DOM permite la creación y gestión de eventos. Los desarrolladores pueden definir comportamientos específicos en respuesta a acciones del usuario, como clics, desplazamientos o cambios de formulario, entre otros.
+- **Compatibilidad con múltiples lenguajes**: aunque comúnmente se asocia con JavaScript, el DOM es un estándar independiente del lenguaje y puede ser manipulado por cualquier lenguaje de programación que pueda interactuar con el navegador.
 - **Interactividad y dinamismo**: el DOM permite la creación de contenido dinámico e interactivo. Mediante el uso de JavaScript y el DOM, los desarrolladores pueden actualizar partes del documento en respuesta a la interacción del usuario sin necesidad de recargar la página completa.
 
 Un ejemplo común de uso del DOM es la manipulación de elementos HTML mediante JavaScript. A continuación, se muestra un pequeño ejemplo de cómo se puede cambiar el contenido de un elemento <div> mediante JavaScript:

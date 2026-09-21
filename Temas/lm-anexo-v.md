@@ -8,17 +8,17 @@ Docker simplifica el despliegue de aplicaciones, ya que garantiza que funcionen 
 
 #### Conceptos básicos de Docker
 
-- **Imagen (Image): es una plantilla inmutable que contiene todo lo necesario para ejecutar una** aplicación, incluyendo el sistema operativo, las dependencias y el código.
+- **Imagen (Image)**: es una plantilla inmutable que contiene todo lo necesario para ejecutar una aplicación, incluyendo el sistema operativo, las dependencias y el código.
 - **Contenedor (Container)**: es una instancia en ejecución de una imagen. Cada contenedor es independiente y aislado, pero puede comunicarse con otros contenedores si se configura.
-- **Dockerfile: es un archivo de texto que contiene instrucciones para crear una imagen de Docker.**
-- **Docker Hub: es un repositorio en línea donde se almacenan imágenes preconfiguradas que se** pueden descargar y usar.
-- **Volúmenes: son áreas de almacenamiento persistente que los contenedores pueden usar para** guardar datos.
+- **Dockerfile**: es un archivo de texto que contiene instrucciones para crear una imagen de Docker.
+- **Docker Hub**: es un repositorio en línea donde se almacenan imágenes preconfiguradas que se pueden descargar y usar.
+- **Volúmenes**: son áreas de almacenamiento persistente que los contenedores pueden usar para guardar datos.
 #### Ventajas de Docker
 
 - **Portabilidad**: las aplicaciones en contenedores funcionan de manera idéntica en cualquier sistema que soporte Docker.
-- **Aislamiento: cada contenedor está aislado del sistema anfitrión y de otros contenedores, lo que** evita conflictos entre aplicaciones.
+- **Aislamiento**: cada contenedor está aislado del sistema anfitrión y de otros contenedores, lo que evita conflictos entre aplicaciones.
 - **Rapidez**: los contenedores se inician en segundos, ya que comparten el kernel del sistema operativo en lugar de virtualizarlo.
-- **Escalabilidad: Docker permite escalar aplicaciones fácilmente mediante la creación de múltiples** contenedores.
+- **Escalabilidad**: Docker permite escalar aplicaciones fácilmente mediante la creación de múltiples contenedores.
 - **Facilidad de despliegue**: con Docker, se puede replicar fácilmente un entorno de desarrollo, pruebas o producción.
 
 #### Instalación básica de Docker

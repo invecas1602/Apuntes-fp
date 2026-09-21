@@ -14,7 +14,7 @@ Los documentos XML se utilizan comúnmente para estructurar y transportar datos,
 
 #### Almacenamiento como archivo
 
-- **Descripción: los documentos XML se almacenan como archivos** en el sistema de archivos.
+- **Descripción**: los documentos XML se almacenan como archivos en el sistema de archivos.
 - **Ventajas:**
 #### – Fácil de implementar y manejar.
 
@@ -45,8 +45,8 @@ INSERT INTO Biblioteca (ID, Datos) VALUES (1, '<libro><titulo>Lenguajes de Marca
 
 #### Bases de datos nativas XML
 
-- **Descripción: estas bases de datos están diseñadas específicamente** para almacenar y gestionar documentos XML en su formato nativo.
-- **Ejemplos:** – **BaseX: base de datos ligera y eficiente para XML.** – **eXist-db: soporta consultas avanzadas con XQuery.** – **MarkLogic: orientada a la gestión de grandes volúmenes de** datos XML.
+- **Descripción**: estas bases de datos están diseñadas específicamente para almacenar y gestionar documentos XML en su formato nativo.
+- **Ejemplos:** – **BaseX**: base de datos ligera y eficiente para XML. – **eXist-db**: soporta consultas avanzadas con XQuery. – **MarkLogic**: orientada a la gestión de grandes volúmenes de datos XML.
 - **Ventajas:**
 #### – Manejo directo del formato XML.
 
@@ -110,8 +110,8 @@ SELECT Datos.value('(/libro/titulo)[1]', 'VARCHAR(- MAX)') FROM Biblioteca
 - Bases de datos NoSQL o nativas ofrecen mayor escalabilidad que los archivos.
 #### Ventajas de los sistemas de almacenamiento XML
 
-- **Flexibilidad: permiten almacenar datos complejos y jerárquicos.**
-- **Interoperabilidad: facilitan el intercambio de información entre** diferentes sistemas.
+- **Flexibilidad**: permiten almacenar datos complejos y jerárquicos.
+- **Interoperabilidad**: facilitan el intercambio de información entre diferentes sistemas.
 - **Consultas avanzadas**: XPath, XQuery y SQL permiten extraer datos de manera eficiente.
 - **Compatibilidad con tecnologías modernas**: bases de datos NoSQL y nativas son ideales para aplicaciones actuales.
 #### Ejemplo práctico:
@@ -217,9 +217,9 @@ SELECT Documento.query('/libro') FROM Biblioteca WHERE ID = 1;
 
 #### Limitaciones del uso de XML en BBDD relacionales
 
-- **Sobrecarga de almacenamiento: los documentos XML grandes** pueden ocupar mucho espacio en la base de datos.
-- **Consultas complejas: las consultas a documentos XML dentro de** una base relacional pueden ser más lentas que las consultas a datos tabulares.
-- **Compatibilidad: no todas las bases de datos relacionales tienen** soporte avanzado para XML.
+- **Sobrecarga de almacenamiento**: los documentos XML grandes pueden ocupar mucho espacio en la base de datos.
+- **Consultas complejas**: las consultas a documentos XML dentro de una base relacional pueden ser más lentas que las consultas a datos tabulares.
+- **Compatibilidad**: no todas las bases de datos relacionales tienen soporte avanzado para XML.
 #### Ejemplo práctico
 
 #### Crear y consultar documentos XML en SQL Server:
@@ -263,7 +263,7 @@ jerárquica de un documento XML para localizar elementos, atributos o valores es
 
   - Soporte para expresiones lógicas y filtros.
 
-- **Ejemplo básico: dado el siguiente XML:** <biblioteca> <libro> <titulo>Lenguajes de Marcas</titulo> <autor>Pablo García</autor> </libro> <libro> <titulo>Diseño Web</titulo> <autor>Laura Sánchez</autor> </libro> </biblioteca>
+- **Ejemplo básico**: dado el siguiente XML: <biblioteca> <libro> <titulo>Lenguajes de Marcas</titulo> <autor>Pablo García</autor> </libro> <libro> <titulo>Diseño Web</titulo> <autor>Laura Sánchez</autor> </libro> </biblioteca>
 
 #### – Seleccionar todos los títulos:
 
@@ -349,18 +349,18 @@ Obtener el título y autor de todos los libros:
 
 - **Editores y validadores XML:** – Oxygen XML Editor – XMLSpy
 - **Herramientas en línea:** – FreeFormatter XML Tools
-- **Lenguajes de programación:** – **Python: Librerías como xml.etree.ElementTree, lxml** – **JavaScript: DOMParser, XPathEvaluator** – **Java: JAXP, DOM**
+- **Lenguajes de programación:** – **Python**: Librerías como xml.etree.ElementTree, lxml – **JavaScript**: DOMParser, XPathEvaluator – **Java**: JAXP, DOM
 
 #### Ventajas de las búsquedas en XML
 
-- **Precisión: XPath y XQuery permiten localizar elementos específicos** dentro de documentos complejos.
-- **Flexibilidad: se pueden aplicar filtros avanzados y transformaciones** en los datos.
-- **Compatibilidad: la mayoría de bases de datos relacionales y** herramientas modernas soportan búsquedas en XML.
+- **Precisión**: XPath y XQuery permiten localizar elementos específicos dentro de documentos complejos.
+- **Flexibilidad**: se pueden aplicar filtros avanzados y transformaciones en los datos.
+- **Compatibilidad**: la mayoría de bases de datos relacionales y herramientas modernas soportan búsquedas en XML.
 La búsqueda de información en documentos XML es una tarea fundamental para extraer datos relevantes y utilizarlos en diferentes contextos. Herramientas como XPath y XQuery, junto con lenguajes de programación y bases de datos, permiten consultas eficientes y transformaciones avanzadas, haciendo de XML una tecnología versátil en la gestión de datos jerárquicos.
 
 #### Ventajas de las búsquedas en XML
 
-- **Precisión: XPath y XQuery permiten localizar elementos específicos** dentro de documentos complejos.
-- **Flexibilidad: se pueden aplicar filtros avanzados y transformaciones** en los datos.
-- **Compatibilidad: la mayoría de bases de datos relacionales y** herramientas modernas soportan búsquedas en XML.
+- **Precisión**: XPath y XQuery permiten localizar elementos específicos dentro de documentos complejos.
+- **Flexibilidad**: se pueden aplicar filtros avanzados y transformaciones en los datos.
+- **Compatibilidad**: la mayoría de bases de datos relacionales y herramientas modernas soportan búsquedas en XML.
 La búsqueda de información en documentos XML es una tarea fundamental para extraer datos relevantes y utilizarlos en diferentes contextos. Herramientas como XPath y XQuery, junto con lenguajes de programación y bases de datos, permiten consultas eficientes y transformaciones avanzadas, haciendo de XML una tecnología versátil en la gestión de datos jerárquicos.

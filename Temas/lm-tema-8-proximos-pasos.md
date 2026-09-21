@@ -51,32 +51,32 @@ Tras haber explorado conceptos fundamentales y habilidades prácticas en este ma
 
 #### Profundizar en el desarrollo web
 
-- **JavaScript avanzado: explorar frameworks como React, Vue.js o**
+- **JavaScript avanzado**: explorar frameworks como React, Vue.js o
 #### Angular para crear aplicaciones web dinámicas y escalables.
 
-- **Backend para aplicaciones web: aprender a construir APIs RESTful** con tecnologías como Node.js o Python Flask.
-- **Gestión de bases de datos: complementar las habilidades de** XML con bases de datos como MongoDB o PostgreSQL.
+- **Backend para aplicaciones web**: aprender a construir APIs RESTful con tecnologías como Node.js o Python Flask.
+- **Gestión de bases de datos**: complementar las habilidades de XML con bases de datos como MongoDB o PostgreSQL.
 #### Extender el uso de XML
 
-- **Integración con APIs: utilizar XML para consumir y generar datos** en servicios web, especialmente en SOAP y REST.
-- **Automatización de tareas: implementar scripts para procesar** grandes volúmenes de documentos XML en lenguajes como Python o Java.
-- **Validación avanzada: aprender a manejar esquemas complejos** con XSD y herramientas de validación más sofisticadas.
+- **Integración con APIs**: utilizar XML para consumir y generar datos en servicios web, especialmente en SOAP y REST.
+- **Automatización de tareas**: implementar scripts para procesar grandes volúmenes de documentos XML en lenguajes como Python o Java.
+- **Validación avanzada**: aprender a manejar esquemas complejos con XSD y herramientas de validación más sofisticadas.
 #### Explorar tecnologías empresariales
 
-- **ERP avanzado: configurar e integrar Odoo con sistemas externos,** como pasarelas de pago, plataformas de ecommerce o sistemas logísticos.
+- **ERP avanzado**: configurar e integrar Odoo con sistemas externos, como pasarelas de pago, plataformas de ecommerce o sistemas logísticos.
 
-- **BI y big data: ampliar el conocimiento sobre herramientas de** análisis de datos, como Power BI o Google Data Studio, para profundizar en inteligencia de negocio.
-- **Automatización de procesos: explorar cómo los sistemas ERP** y CRM pueden integrarse con herramientas de automatización como Zapier o Integromat.
+- **BI y big data**: ampliar el conocimiento sobre herramientas de análisis de datos, como Power BI o Google Data Studio, para profundizar en inteligencia de negocio.
+- **Automatización de procesos**: explorar cómo los sistemas ERP y CRM pueden integrarse con herramientas de automatización como Zapier o Integromat.
 #### Aprender un nuevo lenguaje de programación
 
-- **TypeScript: extensión de JavaScript que añade tipado estático,** ideal para grandes proyectos y frameworks como Angular.
+- **TypeScript**: extensión de JavaScript que añade tipado estático, ideal para grandes proyectos y frameworks como Angular.
 - **Python**: lenguaje versátil para la manipulación de datos, aprendizaje automático y desarrollo web.
 - **Java**: utilizado ampliamente en entornos empresariales para aplicaciones robustas y de alto rendimiento.
 #### Aplicaciones prácticas y proyectos
 
 - **Proyecto web completo**: crear un sitio web funcional que combine frontend (HTML, CSS, JavaScript) y backend (Node.js o Python).
-- **Automatización empresarial: diseñar un flujo automatizado en** un ERP como Odoo que incluya módulos personalizados.
-- **Sistema de reportes dinámicos: implementar un sistema que** utilice datos extraídos de XML para generar reportes dinámicos en formato gráfico o PDF.
+- **Automatización empresarial**: diseñar un flujo automatizado en un ERP como Odoo que incluya módulos personalizados.
+- **Sistema de reportes dinámicos**: implementar un sistema que utilice datos extraídos de XML para generar reportes dinámicos en formato gráfico o PDF.
 El aprendizaje no se detiene aquí. Aprovechar las bases adquiridas para explorar nuevas tecnologías y desarrollar proyectos aplicados permitirá consolidar las habilidades y aumentar las oportunidades profesionales. Las áreas de desarrollo web, inteligencia de negocio y sistemas empresariales ofrecen un camino amplio y prometedor.
 
 ### 8.3. Probemos otro lenguaje: Typescript
@@ -89,9 +89,9 @@ En este taller exploraremos los conceptos básicos de TypeScript y su aplicació
 
 TypeScript es un superconjunto de JavaScript, lo que significa que todo el código JavaScript válido también es válido en TypeScript. Sin embargo, TypeScript añade características como:
 
-- **Tipado estático: declara tipos para variables, funciones y objetos.**
-- **Interfaces y clases avanzadas: facilita la programación orientada** a objetos.
-- **Herramientas de desarrollo: detección de errores en tiempo de** desarrollo gracias al compilador TypeScript.
+- **Tipado estático**: declara tipos para variables, funciones y objetos.
+- **Interfaces y clases avanzadas**: facilita la programación orientada a objetos.
+- **Herramientas de desarrollo**: detección de errores en tiempo de desarrollo gracias al compilador TypeScript.
 El código TypeScript se compila en JavaScript para ser ejecutado en navegadores o entornos como Node.js.
 
 #### Instalación y configuración **Requisitos previos**
@@ -190,7 +190,7 @@ tareas.forEach(tarea => { console.log(`${tarea.descripcion} - Completada: ${tare
 
 #### Ventajas de TypeScript
 
-- **Detección temprana de errores: el tipado estático reduce errores** comunes en tiempo de ejecución.
-- **Escalabilidad: ideal para proyectos grandes gracias a su soporte** para clases e interfaces.
+- **Detección temprana de errores**: el tipado estático reduce errores comunes en tiempo de ejecución.
+- **Escalabilidad**: ideal para proyectos grandes gracias a su soporte para clases e interfaces.
 - **Compatibilidad con JavaScript**: todo código TypeScript se convierte en JavaScript, por lo que puede usarse en cualquier entorno que soporte este lenguaje.
 TypeScript es una excelente opción para quienes buscan mejorar la calidad y mantenibilidad de sus proyectos JavaScript. Con este taller, se han trabajado los conceptos básicos y aplicado ejemplos prácticos que sirven como base para desarrollar aplicaciones más complejas. ¡El siguiente paso es practicar y explorar más funcionalidades!
