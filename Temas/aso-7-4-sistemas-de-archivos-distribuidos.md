@@ -1,0 +1,13 @@
+# **7.4. Sistemas de archivos distribuidos**
+
+Existe una amplia variedad de sistemas de archivos distribuidos, y cada uno ofrece prestaciones distintas en cuanto a requerimientos, ventajas y compensaciones. Si bien en Windows el sistema de archivos distribuido es el DFS, en los sistemas operativos libres la variedad es mayor:
+
+- **Sistema distribuido de archivos de Microsoft (DFS)**: se trata del sistema desarrollado por Microsoft para sus sistemas operativos, diseñado para ser escalable y garantizar la disponibilidad de los recursos en entornos basados en el Directorio Activo. Permite compartir carpetas ubicadas en diferentes servidores dentro de un único espacio de nombres lógico, e incluye funciones como el equilibrado de carga bajo una interfaz de gestión simplificada. Cuenta con una versión, llamada DFSC, diseñada expresamente para su utilización en la nube a través de varias instancias configuradas en la plataforma Azure.
+- **GlusterFS**: sistema de código abierto flexible, disponible tanto para Linux como para Windows, que permite agrupar recursos de almacenamiento en red bajo un único espacio de nombres global, y cuya arquitectura distribuida le proporciona una gran escalabilidad y nivel de redundancia.
+- **Lustre**: sistema de archivos distribuido diseñado para su implementación en clústeres a gran escala, y compatible también con Windows y Linux. Capaz de procesar datos en paralelo, ofrece una baja latencia y, por tanto, un alto rendimiento al procesar grandes volúmenes de datos.
+- **Ceph**: sistema distribuido de almacenamiento de objetos y archivos, tolerante frente a fallos y escalable. Disponible en servidores Linux, este sistema incluye funciones de replicación, autorreparación y distribución automática de datos.
+- **Sistema de archivos distribuidos Hadoop (HDFS)**: utilizado en la plataforma Apache Hadoop, está orientado al procesamiento de grandes volúmenes de datos gracias a su alta tolerancia, rendimiento y escalabilidad.
+
+Estos son solo algunos de los sistemas de archivos distribuidos que podemos encontrar en entornos donde la redundancia, tolerancia a fallos y escalabilidad del almacenamiento son factores críticos, como los espacios de trabajo colaborativos, sistemas de análisis de *Big Data,*  la industria del entretenimiento, la computación de alto rendimiento, los centros de datos o las plataformas de almacenamiento en la nube.
+
+En esta unidad nos centraremos en dos de ellos, DFS, ya que es omnipresente en entornos basados en Windows, y GlusterFS que, además de ser de código abierto, es relativamente fácil de instalar y configurar en entornos basados en Linux.
